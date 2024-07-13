@@ -1,0 +1,1114 @@
+[
+    {
+        "id": 0,
+        "question": "In which year was the Prophet Muhammad (PBUH) born?",
+        "answers": [
+            "570 CE",
+            "580 CE",
+            "590 CE",
+            "600 CE"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 1,
+        "question": "What is the name of the cave where the Prophet Muhammad (PBUH) received his first revelation?",
+        "answers": [
+            "Cave Hira",
+            "Cave Thawr",
+            "Cave Sabr",
+            "Cave Qura"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 2,
+        "question": "Who was the first wife of Prophet Muhammad (PBUH)?",
+        "answers": [
+            "Aisha",
+            "Hafsa",
+            "Khadijah",
+            "Zaynab"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "Which city is known as the place of the Prophet's migration?",
+        "answers": [
+            "Makkah",
+            "Taif",
+            "Yathrib (Medina)",
+            "Jerusalem"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 4,
+        "question": "What was the name of the Prophet Muhammad's (PBUH) uncle who raised him after his grandfather?",
+        "answers": [
+            "Abu Lahab",
+            "Abu Talib",
+            "Abu Sufyan",
+            "Abdullah"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "Who was the first person to accept Islam?",
+        "answers": [
+            "Abu Bakr",
+            "Ali ibn Abi Talib",
+            "Khadijah",
+            "Umar ibn Khattab"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 6,
+        "question": "In which battle did the Muslims fight against the Quraysh for the first time?",
+        "answers": [
+            "Battle of Uhud",
+            "Battle of Badr",
+            "Battle of the Trench",
+            "Battle of Hunayn"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 7,
+        "question": "Which treaty was signed between the Muslims and the Quraysh in 628 CE?",
+        "answers": [
+            "Treaty of Hudaybiyyah",
+            "Treaty of Badr",
+            "Treaty of Uhud",
+            "Treaty of Mecca"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 8,
+        "question": "What was the first mosque built by Prophet Muhammad (PBUH)?",
+        "answers": [
+            "Al-Masjid al-Haram",
+            "Al-Masjid al-Aqsa",
+            "Quba Mosque",
+            "Masjid an-Nabawi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 9,
+        "question": "Which battle is known as the turning point in the early Islamic conquests?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of the Trench",
+            "Battle of Khaybar"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 10,
+        "question": "Who was the first caliph after the death of Prophet Muhammad (PBUH)?",
+        "answers": [
+            "Umar ibn Khattab",
+            "Ali ibn Abi Talib",
+            "Abu Bakr as-Siddiq",
+            "Uthman ibn Affan"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 11,
+        "question": "Which caliph was known for compiling the Quran into a single book?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 12,
+        "question": "Which caliph established the Islamic calendar?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 13,
+        "question": "Who was the second caliph of Islam?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 14,
+        "question": "Which caliph was known for his extensive judicial reforms?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 15,
+        "question": "Who was the third caliph of Islam?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 16,
+        "question": "Who was the fourth caliph of Islam?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 17,
+        "question": "Which caliph moved the Islamic capital to Kufa?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 18,
+        "question": "Which battle marked the first civil war in Islamic history?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of Siffin",
+            "Battle of Jamal"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 19,
+        "question": "Who was the governor of Syria during the caliphate of Umar ibn Khattab?",
+        "answers": [
+            "Muawiya ibn Abi Sufyan",
+            "Yazid ibn Muawiya",
+            "Amr ibn al-As",
+            "Khalid ibn al-Walid"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 20,
+        "question": "Which Islamic empire was known for its capital city of Baghdad?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Ottoman Empire",
+            "Fatimid Caliphate"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 21,
+        "question": "Who was the founder of the Umayyad Caliphate?",
+        "answers": [
+            "Muawiya ibn Abi Sufyan",
+            "Abd al-Malik ibn Marwan",
+            "Omar ibn Abdul-Aziz",
+            "Marwan ibn al-Hakam"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 22,
+        "question": "Which city was the capital of the Umayyad Caliphate?",
+        "answers": [
+            "Mecca",
+            "Medina",
+            "Damascus",
+            "Baghdad"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 23,
+        "question": "Who was the first caliph of the Abbasid Caliphate?",
+        "answers": [
+            "Abu al-Abbas as-Saffah",
+            "Harun al-Rashid",
+            "Al-Ma'mun",
+            "Al-Mansur"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 24,
+        "question": "Which city served as the capital of the Abbasid Caliphate?",
+        "answers": [
+            "Damascus",
+            "Baghdad",
+            "Cairo",
+            "Istanbul"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 25,
+        "question": "Who was the most famous ruler of the Abbasid Caliphate known for his patronage of the arts and sciences?",
+        "answers": [
+            "Al-Ma'mun",
+            "Harun al-Rashid",
+            "Al-Mansur",
+            "Al-Mutawakkil"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 26,
+        "question": "Which Islamic empire was known for its capital city of Constantinople?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Ottoman Empire",
+            "Fatimid Caliphate"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 27,
+        "question": "Who was the founder of the Ottoman Empire?",
+        "answers": [
+            "Osman I",
+            "Mehmed II",
+            "Suleiman the Magnificent",
+            "Selim I"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 28,
+        "question": "Which Ottoman sultan conquered Constantinople?",
+        "answers": [
+            "Osman I",
+            "Mehmed II",
+            "Suleiman the Magnificent",
+            "Selim I"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 29,
+        "question": "Which empire was known for its construction of the Blue Mosque?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Ottoman Empire",
+            "Fatimid Caliphate"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 30,
+        "question": "Who was the famous Ottoman sultan known for his legal reforms and cultural achievements?",
+        "answers": [
+            "Osman I",
+            "Mehmed II",
+            "Suleiman the Magnificent",
+            "Selim I"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 31,
+        "question": "Which empire was known for its establishment of Al-Azhar University?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 32,
+        "question": "Which caliphate is known for its development of the astrolabe?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 33,
+        "question": "Which famous library was established during the Abbasid Caliphate?",
+        "answers": [
+            "House of Wisdom",
+            "Library of Alexandria",
+            "Great Library of Baghdad",
+            "Library of Cordoba"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 34,
+        "question": "Which caliphate is known for the construction of the Great Mosque of Cordoba?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 35,
+        "question": "Which empire was responsible for the construction of the Alhambra in Spain?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Nasrid Kingdom of Granada"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 36,
+        "question": "Which Islamic scholar is known as the 'Father of Algebra'?",
+        "answers": [
+            "Al-Kindi",
+            "Al-Khwarizmi",
+            "Ibn Sina",
+            "Al-Farabi"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 37,
+        "question": "Which Islamic scholar wrote the famous medical encyclopedia 'The Canon of Medicine'?",
+        "answers": [
+            "Al-Razi",
+            "Ibn Sina (Avicenna)",
+            "Al-Biruni",
+            "Al-Kindi"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 38,
+        "question": "Who was the famous Muslim philosopher known for his works on Aristotle?",
+        "answers": [
+            "Al-Ghazali",
+            "Al-Kindi",
+            "Ibn Rushd (Averroes)",
+            "Al-Farabi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 39,
+        "question": "Which Islamic geographer wrote 'The Book of Roads and Kingdoms'?",
+        "answers": [
+            "Ibn Battuta",
+            "Al-Idrisi",
+            "Ibn Jubayr",
+            "Al-Masudi"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 40,
+        "question": "Who is the author of the travel book 'Rihla'?",
+        "answers": [
+            "Ibn Battuta",
+            "Ibn Jubayr",
+            "Al-Idrisi",
+            "Al-Masudi"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 41,
+        "question": "Which Islamic scientist is known for his significant contributions to optics?",
+        "answers": [
+            "Al-Kindi",
+            "Al-Haytham (Alhazen)",
+            "Al-Razi",
+            "Ibn Sina"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 42,
+        "question": "Which Muslim polymath is known for his works on medicine, astronomy, and chemistry?",
+        "answers": [
+            "Al-Biruni",
+            "Al-Razi",
+            "Al-Khwarizmi",
+            "Ibn Sina"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 43,
+        "question": "Which empire was known for its development of the astrolabe?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Nasrid Kingdom of Granada"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 44,
+        "question": "Which famous library was established during the Abbasid Caliphate?",
+        "answers": [
+            "House of Wisdom",
+            "Library of Alexandria",
+            "Great Library of Baghdad",
+            "Library of Cordoba"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 45,
+        "question": "Which caliphate is known for the construction of the Great Mosque of Cordoba?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 46,
+        "question": "Who was the famous Muslim traveler who visited over 40 countries?",
+        "answers": [
+            "Al-Idrisi",
+            "Ibn Jubayr",
+            "Al-Masudi",
+            "Ibn Battuta"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 47,
+        "question": "Which Islamic city became a major center of learning during the Golden Age of Islam?",
+        "answers": [
+            "Mecca",
+            "Medina",
+            "Baghdad",
+            "Damascus"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 48,
+        "question": "Which Islamic scholar is known for his work 'The Muqaddimah'?",
+        "answers": [
+            "Ibn Battuta",
+            "Al-Masudi",
+            "Ibn Khaldun",
+            "Al-Farabi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 49,
+        "question": "Which empire was responsible for the establishment of Al-Azhar University?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 50,
+        "question": "Who was the famous Muslim polymath known for his work 'Kitab al-Shifa' (The Book of Healing)?",
+        "answers": [
+            "Al-Farabi",
+            "Al-Kindi",
+            "Ibn Sina (Avicenna)",
+            "Al-Razi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 51,
+        "question": "Which Islamic caliphate is known for its capital city of Cairo?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 52,
+        "question": "Which Islamic scholar is known for his contributions to the field of surgery?",
+        "answers": [
+            "Ibn Sina",
+            "Al-Zahrawi (Albucasis)",
+            "Al-Razi",
+            "Al-Ghazali"
+        ],
+        "correctAnswer": 1
+    },
+
+    {
+        "id": 53,
+        "question": "Who is the companion whom the Messenger ransomed with his father and mother?",
+        "answers": [
+            "Ali ibn Abi Talib",
+            "Sa'd Ibn Malik",
+            "Abdullah ibn Ja'far",
+            "Abdullah ibn Abbas"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 54,
+        "question": "Which battle did the prophet first fight?",
+        "answers": [
+            "the Battle of Tabuk",
+            "the Battle of Uhud",
+            "the Battle of Badr",
+            "the Battle of Ahzab"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 55,
+        "question": "Which city did the Umayyad Caliphate establish as their capital?",
+        "answers": [
+            "Baghdad",
+            "Mecca",
+            "Damascus",
+            "Cairo"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 56,
+        "question": "Which Islamic empire is known for its significant contributions to mathematics and science during the Golden Age of Islam?",
+        "answers": [
+            "The Ottoman Empire",
+            "The Mughal Empire",
+            "The Abbasid Caliphate",
+            "The Fatimid Caliphate"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 57,
+        "question": "Which Rightly Guided Caliph was known for compiling the Quran into a single book?",
+        "answers": [
+            "Abu Bakr",
+            "Umar ibn al-Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 58,
+        "question": "Who was the famous Muslim scholar known as the 'father of algebra'?",
+        "answers": [
+            "Al-Kindi",
+            "Ibn Sina",
+            "Al-Khwarizmi",
+            "Al-Farabi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 59,
+        "question": "What was the main language of administration and scholarship during the Abbasid Caliphate?",
+        "answers": [
+            "Persian",
+            "Turkish",
+            "Arabic",
+            "Latin"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 60,
+        "question": "Which Islamic empire ruled over the Indian subcontinent and is known for its architectural marvels such as the Taj Mahal?",
+        "answers": [
+            "The Umayyad Caliphate",
+            "The Abbasid Caliphate",
+            "The Ottoman Empire",
+            "The Mughal Empire"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 61,
+        "question": "Which of the following was the longest-reigning Ottoman Sultan?",
+        "answers": [
+            "Suleiman the Magnificent",
+            "Mehmed II",
+            "Selim I",
+            "Bayezid II"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 62,
+        "question": "What was the name of the battle in which Prophet Muhammad (PBUH) was injured but the Muslims still showed resilience?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of Khandaq",
+            "Battle of Tabuk"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 63,
+        "question": "Who was the Prophet Muhammad's (PBUH) wet nurse?",
+        "answers": [
+            "Halima Saadia",
+            "Barakah",
+            "Amina",
+            "Fatimah"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 64,
+        "question": "Which caliph is known for the conquest of Jerusalem?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 65,
+        "question": "Which battle is also known as the 'Battle of the Ditch'?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of Khandaq",
+            "Battle of Tabuk"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 66,
+        "question": "Who was the fourth caliph of the Umayyad Caliphate?",
+        "answers": [
+            "Muawiya I",
+            "Yazid I",
+            "Abd al-Malik",
+            "Marwan I"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 67,
+        "question": "Which Abbasid caliph is known for his translation movement and patronage of scholars?",
+        "answers": [
+            "Al-Mansur",
+            "Harun al-Rashid",
+            "Al-Ma'mun",
+            "Al-Mutawakkil"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 68,
+        "question": "Which Islamic scholar is known for his work 'Kitab al-Jabr wa-l-Muqabala' (The Book of Algebra)?",
+        "answers": [
+            "Al-Kindi",
+            "Al-Khwarizmi",
+            "Ibn Sina",
+            "Al-Farabi"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 69,
+        "question": "Which caliphate is known for the construction of the Dome of the Rock?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 70,
+        "question": "Who was the first caliph to be assassinated?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 71,
+        "question": "Which Islamic scientist made significant contributions to the understanding of vision and optics?",
+        "answers": [
+            "Al-Kindi",
+            "Ibn Sina",
+            "Al-Haytham (Alhazen)",
+            "Al-Razi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 72,
+        "question": "Which empire is known for its legal code 'Kanun' and reforms under Suleiman the Magnificent?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Ottoman Empire",
+            "Fatimid Caliphate"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 73,
+        "question": "Who was the famous Muslim explorer who traveled extensively through Africa, Europe, and Asia?",
+        "answers": [
+            "Ibn Jubayr",
+            "Al-Masudi",
+            "Ibn Battuta",
+            "Al-Idrisi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 74,
+        "question": "Which battle did the Muslims fight against the Quraysh after their victory at Badr?",
+        "answers": [
+            "Battle of Uhud",
+            "Battle of Khandaq",
+            "Battle of Hunayn",
+            "Battle of Tabuk"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 75,
+        "question": "Who was the first caliph to be a member of the Hashimite clan?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 76,
+        "question": "Which caliphate was known for its establishment of the 'House of Wisdom' in Baghdad?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 77,
+        "question": "Which Islamic scholar is known for his comprehensive medical encyclopedia 'Kitab al-Hawi'?",
+        "answers": [
+            "Ibn Sina",
+            "Al-Razi",
+            "Al-Zahrawi",
+            "Ibn al-Nafis"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 78,
+        "question": "Which caliphate ruled during the Golden Age of Islam?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 79,
+        "question": "Which battle is known for the large trench dug around Medina as a defensive measure?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of Khandaq",
+            "Battle of Tabuk"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 80,
+        "question": "Who was the governor of Egypt during the early years of the Umayyad Caliphate?",
+        "answers": [
+            "Muawiya ibn Abi Sufyan",
+            "Amr ibn al-As",
+            "Abdullah ibn Saad",
+            "Marwan ibn al-Hakam"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 81,
+        "question": "Which Islamic empire is known for its military conquests in Europe, including the Battle of Manzikert?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Seljuk Empire"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 82,
+        "question": "Which battle marked the end of the Byzantine Empire's dominance in Anatolia?",
+        "answers": [
+            "Battle of Yarmouk",
+            "Battle of Manzikert",
+            "Battle of Tours",
+            "Battle of Hattin"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 83,
+        "question": "Who was the Islamic scholar known for his work on the astrolabe and astronomical tables?",
+        "answers": [
+            "Al-Khwarizmi",
+            "Al-Battani",
+            "Al-Biruni",
+            "Ibn al-Haytham"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 84,
+        "question": "Which caliph is known for compiling the Quran into a single book?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 85,
+        "question": "Which empire is known for the architectural marvel, the Alhambra?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Nasrid Kingdom"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 86,
+        "question": "Which caliphate is known for its capital, Damascus?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 87,
+        "question": "Who was the famous Muslim geographer and cartographer known for his world map?",
+        "answers": [
+            "Al-Masudi",
+            "Ibn Battuta",
+            "Al-Idrisi",
+            "Ibn Jubayr"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 88,
+        "question": "Which battle is also known as the 'Battle of the Camel'?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of the Camel",
+            "Battle of Siffin"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 89,
+        "question": "Who was the first caliph of the Abbasid Caliphate?",
+        "answers": [
+            "Abu al-Abbas al-Saffah",
+            "Al-Mansur",
+            "Harun al-Rashid",
+            "Al-Ma'mun"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 90,
+        "question": "Which major Islamic empire was established by Osman I?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Seljuk Empire",
+            "Ottoman Empire"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 91,
+        "question": "Who was the Muslim philosopher known for his work 'The Incoherence of the Philosophers'?",
+        "answers": [
+            "Ibn Sina",
+            "Al-Ghazali",
+            "Ibn Rushd",
+            "Al-Farabi"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 92,
+        "question": "Which Islamic ruler commissioned the construction of the Great Mosque of Samarra?",
+        "answers": [
+            "Al-Mansur",
+            "Al-Ma'mun",
+            "Al-Mutawakkil",
+            "Harun al-Rashid"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 93,
+        "question": "Who was the Muslim mathematician known for the invention of algebra?",
+        "answers": [
+            "Ibn Sina",
+            "Al-Khwarizmi",
+            "Al-Razi",
+            "Al-Biruni"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 94,
+        "question": "Which battle is also known as the 'Battle of the Trench'?",
+        "answers": [
+            "Battle of Badr",
+            "Battle of Uhud",
+            "Battle of Khandaq",
+            "Battle of Tabuk"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 95,
+        "question": "Who was the Muslim explorer who traveled extensively in Africa and Asia and documented his journeys?",
+        "answers": [
+            "Ibn Battuta",
+            "Al-Masudi",
+            "Al-Idrisi",
+            "Ibn Jubayr"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 96,
+        "question": "Which caliph is known for expanding the Islamic empire to include Egypt, Persia, and parts of the Byzantine Empire?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 97,
+        "question": "Which Islamic caliph is known for standardizing the Quran?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 98,
+        "question": "Which Islamic scholar is known for his comprehensive medical encyclopedia 'The Canon of Medicine'?",
+        "answers": [
+            "Al-Kindi",
+            "Ibn Sina",
+            "Al-Razi",
+            "Al-Zahrawi"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 99,
+        "question": "Which Islamic empire is known for the construction of the Alhambra palace in Granada?",
+        "answers": [
+            "Umayyad Caliphate",
+            "Abbasid Caliphate",
+            "Fatimid Caliphate",
+            "Nasrid Kingdom"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 100,
+        "question": "Who was the first caliph to use the title 'Amir al-Mu'minin' (Commander of the Faithful)?",
+        "answers": [
+            "Abu Bakr as-Siddiq",
+            "Umar ibn Khattab",
+            "Uthman ibn Affan",
+            "Ali ibn Abi Talib"
+        ],
+        "correctAnswer": 1
+    }
+]

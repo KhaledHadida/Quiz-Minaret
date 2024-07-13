@@ -1,0 +1,794 @@
+[
+    {
+        "id": 0,
+        "question": "When are the white days (Ayyam al Bid)?",
+        "answers": [
+            "1, 2, 3",
+            "10, 11, 12",
+            "13, 14, 15",
+            "the last 3 days of each month"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 1,
+        "question": "How many sunnah rak'ahs after Jumu'ah prayer while at the mosque?",
+        "answers": [
+            "2",
+            "4",
+            "1",
+            "0"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "How many times a day are Muslims required to perform Salah (prayer)?",
+        "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "What is the name of the prayer performed by Muslims before sunrise?",
+        "answers": [
+            "Dhuhr",
+            "Asr",
+            "Maghrib",
+            "Fajr"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 4,
+        "question": "During which month do Muslims observe fasting from dawn until sunset?",
+        "answers": [
+            "Shawwal",
+            "Muharram",
+            "Ramadan",
+            "Dhul-Hijjah"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "What is the meal called that Muslims eat before starting their fast at dawn?",
+        "answers": [
+            "Iftar",
+            "Suhoor",
+            "Eid",
+            "Tarawih"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "What is the obligatory form of charity called that every eligible Muslim must give?",
+        "answers": [
+            "Sadaqah",
+            "Zakat",
+            "Khums",
+            "Fidyah"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 7,
+        "question": "Which city must Muslims visit to perform the pilgrimage of Hajj?",
+        "answers": [
+            "Jerusalem",
+            "Medina",
+            "Mecca",
+            "Cairo"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 8,
+        "question": "What is the name of the sacred black stone that Muslims circumambulate during Hajj?",
+        "answers": [
+            "Maqam Ibrahim",
+            "Hajr Aswad",
+            "Zamzam",
+            "Safa"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "What is the term used to describe good moral character and behavior in Islam?",
+        "answers": [
+            "Taqwa",
+            "Akhlaq",
+            "Ihsan",
+            "Tawakkul"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 10,
+        "question": "What is the second pillar of Islam?",
+        "answers": [
+            "Shahada",
+            "Salat",
+            "Zakat",
+            "Hajj"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 11,
+        "question": "How many times a day is a Muslim required to pray?",
+        "answers": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 12,
+        "question": "During which month do Muslims fast from dawn until sunset?",
+        "answers": [
+            "Shawwal",
+            "Ramadan",
+            "Muharram",
+            "Rajab"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 13,
+        "question": "What is the act of giving a portion of one's wealth to charity called?",
+        "answers": [
+            "Sadaqah",
+            "Zakat",
+            "Kaffarah",
+            "Jizya"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 14,
+        "question": "How often is a Muslim required to perform Hajj if they are able?",
+        "answers": [
+            "Once in a lifetime",
+            "Once a year",
+            "Twice in a lifetime",
+            "Twice a year"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 15,
+        "question": "What is the name of the pre-dawn meal consumed before fasting during Ramadan?",
+        "answers": [
+            "Iftar",
+            "Suhur",
+            "Tarawih",
+            "Tahajjud"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 16,
+        "question": "What is the prayer called that Muslims perform after sunset?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Maghrib",
+            "Isha"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 17,
+        "question": "Which day of the week is considered the holiest in Islam, where communal prayers are held?",
+        "answers": [
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 18,
+        "question": "What is the special prayer performed during the nights of Ramadan?",
+        "answers": [
+            "Tahajjud",
+            "Tarawih",
+            "Witr",
+            "Duha"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 19,
+        "question": "What is the term for the obligatory charity that Muslims must pay, typically 2.5% of their savings?",
+        "answers": [
+            "Sadaqah",
+            "Kaffarah",
+            "Zakat",
+            "Fidyah"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 20,
+        "question": "What is the name of the pilgrimage to Mecca that Muslims must perform at least once in their lifetime?",
+        "answers": [
+            "Umrah",
+            "Hajj",
+            "Ziyarat",
+            "Rihla"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 21,
+        "question": "What is the name of the practice of fasting on the 10th day of Muharram?",
+        "answers": [
+            "Sawm",
+            "Arafah",
+            "Ashura",
+            "Eid"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 22,
+        "question": "What is the Arabic term for the prayer beads used by Muslims?",
+        "answers": [
+            "Rosary",
+            "Misbaha",
+            "Tasbih",
+            "Subha"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 23,
+        "question": "Which pillar of Islam is directly associated with the declaration of faith?",
+        "answers": [
+            "Salat",
+            "Zakat",
+            "Hajj",
+            "Shahada"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 24,
+        "question": "What is the significance of the Kaaba in Islam?",
+        "answers": [
+            "It is the burial place of the Prophet Muhammad",
+            "It is a mosque built by the first caliph",
+            "It is the direction Muslims face during prayer",
+            "It is the birthplace of Islam"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 25,
+        "question": "Which prayer is performed in the early afternoon?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Asr",
+            "Isha"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 26,
+        "question": "What is the term for the purification ritual performed before prayers?",
+        "answers": [
+            "Ghusl",
+            "Tayammum",
+            "Wudu",
+            "Istinja"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 27,
+        "question": "What is the reward for performing the pilgrimage of Umrah during Ramadan?",
+        "answers": [
+            "Equivalent to performing Hajj",
+            "Double the reward of Hajj",
+            "Half the reward of Hajj",
+            "No special reward"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 28,
+        "question": "What is the name of the evening meal with which Muslims end their daily Ramadan fast?",
+        "answers": [
+            "Iftar",
+            "Suhur",
+            "Tarawih",
+            "Tahajjud"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 29,
+        "question": "What is the term for the spiritual retreat in the mosque during the last 10 days of Ramadan?",
+        "answers": [
+            "Iftar",
+            "Qiyam",
+            "Itikaf",
+            "Tahajjud"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 30,
+        "question": "What is the name of the chapter in the Quran that is recited in every unit of prayer?",
+        "answers": [
+            "Surah Al-Baqarah",
+            "Surah Al-Fatiha",
+            "Surah Al-Ikhlas",
+            "Surah Yaseen"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 31,
+        "question": "What is the term for the congregational prayer performed on Friday?",
+        "answers": [
+            "Eid Salah",
+            "Jumu'ah",
+            "Taraweeh",
+            "Qiyam"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 32,
+        "question": "What is the Arabic term for the night prayer performed after Isha?",
+        "answers": [
+            "Tahajjud",
+            "Duha",
+            "Qiyam",
+            "Tarawih"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 33,
+        "question": "Which pillar of Islam involves fasting during the month of Ramadan?",
+        "answers": [
+            "Shahada",
+            "Salat",
+            "Zakat",
+            "Sawm"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 34,
+        "question": "What is the special prayer performed at night during the last 10 days of Ramadan?",
+        "answers": [
+            "Tahajjud",
+            "Tarawih",
+            "Witr",
+            "Itikaf"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 35,
+        "question": "What is the name of the pilgrimage that Muslims can perform at any time of the year?",
+        "answers": [
+            "Hajj",
+            "Umrah",
+            "Ziyarat",
+            "Rihla"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 36,
+        "question": "How many units (rak'ahs) are there in the Fajr prayer?",
+        "answers": [
+            "Two",
+            "Four",
+            "Three",
+            "Five"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 37,
+        "question": "What is the prayer performed at mid-morning called?",
+        "answers": [
+            "Duha",
+            "Tahajjud",
+            "Qiyam",
+            "Tarawih"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 38,
+        "question": "What is the term for the charitable donation given at the end of Ramadan?",
+        "answers": [
+            "Zakat",
+            "Sadaqah",
+            "Fitrana",
+            "Kaffarah"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 39,
+        "question": "What is the term for the obligatory fast-breaking charity given before Eid al-Fitr?",
+        "answers": [
+            "Zakat-al-Fitr",
+            "Zakat al-Mal",
+            "Sadaqah",
+            "Kaffarah"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 40,
+        "question": "What is the term for voluntary charity given by Muslims?",
+        "answers": [
+            "Zakat",
+            "Kaffarah",
+            "Sadaqah",
+            "Fidyah"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 41,
+        "question": "What is the name of the prayer performed after the obligatory night prayer (Isha)?",
+        "answers": [
+            "Duha",
+            "Tahajjud",
+            "Witr",
+            "Tarawih"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 42,
+        "question": "What is the name of the annual pilgrimage to Mecca that all Muslims must perform if they are able?",
+        "answers": [
+            "Umrah",
+            "Hajj",
+            "Ziyarat",
+            "Rihla"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 43,
+        "question": "What is the term for the extra prayer performed after the obligatory prayers?",
+        "answers": [
+            "Sunnah",
+            "Nafl",
+            "Witr",
+            "Tahajjud"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 44,
+        "question": "Which prayer is performed in the early afternoon?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Asr",
+            "Isha"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 45,
+        "question": "What is the Arabic term for the charity given to free a person from their sins?",
+        "answers": [
+            "Kaffarah",
+            "Sadaqah",
+            "Fidyah",
+            "Zakat"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 46,
+        "question": "What is the name of the stone structure Muslims circle during Hajj?",
+        "answers": [
+            "Zamzam Well",
+            "Kaaba",
+            "Mina",
+            "Arafat"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 47,
+        "question": "What is the Arabic term for the prayer performed at sunset?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Maghrib",
+            "Isha"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 48,
+        "question": "Which month in the Islamic calendar is Ramadan?",
+        "answers": [
+            "First",
+            "Ninth",
+            "Tenth",
+            "Twelfth"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 49,
+        "question": "What is the Arabic term for the Friday sermon?",
+        "answers": [
+            "Khutbah",
+            "Sunnah",
+            "Hadith",
+            "Fatwa"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 50,
+        "question": "What is the Arabic term for the evening prayer?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Maghrib",
+            "Isha"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 51,
+        "question": "What is the term for the prayer performed at dawn?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Maghrib",
+            "Isha"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 52,
+        "question": "What is the name of the meal consumed to break the fast during Ramadan?",
+        "answers": [
+            "Iftar",
+            "Suhur",
+            "Tahajjud",
+            "Tarawih"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 53,
+        "question": "What is the term for the act of seeking forgiveness from Allah?",
+        "answers": [
+            "Istighfar",
+            "Tawbah",
+            "Kaffarah",
+            "Sadaqah"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 54,
+        "question": "What is the term for the pre-dawn meal consumed before fasting during Ramadan?",
+        "answers": [
+            "Iftar",
+            "Suhur",
+            "Tarawih",
+            "Tahajjud"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 55,
+        "question": "What is the term for the act of washing oneself before prayers?",
+        "answers": [
+            "Ghusl",
+            "Wudu",
+            "Tayammum",
+            "Istinja"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 56,
+        "question": "What is the term for the special prayers performed during the nights of Ramadan?",
+        "answers": [
+            "Tahajjud",
+            "Tarawih",
+            "Witr",
+            "Duha"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 57,
+        "question": "What is the name of the night when the Quran was first revealed?",
+        "answers": [
+            "Laylat al-Qadr",
+            "Laylat al-Isra",
+            "Laylat al-Miraj",
+            "Laylat al-Bara'at"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 58,
+        "question": "What is the name of the prayer performed after the obligatory prayers?",
+        "answers": [
+            "Sunnah",
+            "Nafl",
+            "Witr",
+            "Tahajjud"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 59,
+        "question": "What is the Arabic term for the five daily prayers?",
+        "answers": [
+            "Sawm",
+            "Zakat",
+            "Salah",
+            "Hajj"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 60,
+        "question": "CHANGE?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Asr",
+            "Maghrib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 61,
+        "question": "What is the Arabic term for the obligatory charity given by Muslims?",
+        "answers": [
+            "Sadaqah",
+            "Zakat",
+            "Sawm",
+            "Hajj"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 63,
+        "question": "What is the Arabic term for the call to prayer?",
+        "answers": [
+            "Imam",
+            "Adhan",
+            "Khutbah",
+            "Iqama"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 65,
+        "question": "How many units (Rak'ahs) are in the Fajr prayer?",
+        "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 68,
+        "question": "What is the minimum amount of wealth that makes Zakat obligatory called?",
+        "answers": [
+            "Nisab",
+            "Sadaqah",
+            "Fidya",
+            "Riba"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 69,
+        "question": "Which prayer is performed in the late afternoon?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Asr",
+            "Isha"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 72,
+        "question": "What is the special night prayer performed during Ramadan called?",
+        "answers": [
+            "Tahajjud",
+            "Tarawih",
+            "Qiyam",
+            "Duha"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 73,
+        "question": "Which prayer is performed just before going to bed?",
+        "answers": [
+            "Maghrib",
+            "Isha",
+            "Asr",
+            "Dhuhr"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 74,
+        "question": "What is the Arabic term for the purification of wealth?",
+        "answers": [
+            "Sadaqah",
+            "Zakat",
+            "Riba",
+            "Nisab"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 75,
+        "question": "What is the term for the voluntary fasts outside of Ramadan?",
+        "answers": [
+            "Nafl",
+            "Fard",
+            "Sunnah",
+            "Wajib"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 76,
+        "question": "Which ritual involves running between the hills of Safa and Marwah during Hajj?",
+        "answers": [
+            "Tawaf",
+            "Sa'i",
+            "Rami",
+            "Ihram"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 78,
+        "question": "What is the term for the special charity given during Ramadan to help those in need?",
+        "answers": [
+            "Sadaqat al-Fitr",
+            "Zakat",
+            "Fidya",
+            "Kaffarah"
+        ],
+        "correctAnswer": 0
+    }
+]

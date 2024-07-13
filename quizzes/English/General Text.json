@@ -1,0 +1,45 @@
+{
+    "greeting": "Salam Alykum",
+    "quiz_intro": "Below you can quiz yourself in different topics of Islam",
+    "button_foundations": "Islamic Foundations",
+    "button_practices": "Islamic Practices",
+    "button_history": "Islamic History",
+    "topics": "Topics Include",
+    "foundations_topics": [
+        "Quran",
+        "Prophets",
+        "Sunnah and Hadith",
+        "Aqeedah (Islamic Belief)"
+      ],
+      "practices_topics": [
+        "Prayer",
+        "Fasting",
+        "Charity",
+        "Hajj & Umrah (Pilgrimage)",
+        "Daily Ethics"
+      ],
+      "history_topics": [
+        "The Life of Prophet Muhammad (PBUH)",
+        "The Four Rightly Guided Caliphs",
+        "Major Islamic Empires",
+        "Islamic Contributions to World Civilization"
+      ],
+    "questions_attempted": "Questions Attempted",
+    "questions_correct": "Correct Answers",
+    "questions_wrong": "Wrong Answer",
+    "questions_average": "Current Average",
+    "questions_complete": "Questions Completed",
+    "100": "Wow! May Allah award you!",
+    "90": "Great work!",
+    "80": "Nice work!",
+    "70": "Good work!",
+    "60": "Not bad!",
+    "0": "Inshallah you will improve!",
+    "Themes": "Themes",
+    "Light": "Light",
+    "Dark": "Dark",
+    "Sound": "Sound",
+    "Credits": "Credits",
+    "credits_thanks": "Thanks to the contributors for these resources used in the app below:"
+
+}
