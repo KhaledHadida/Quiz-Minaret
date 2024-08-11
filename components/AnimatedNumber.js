@@ -12,6 +12,7 @@ const AnimatedNumber = ({ toValue, duration }) => {
 
     //Animating the number
     useEffect(() => {
+        //EAch time we increase in 
         animatedValue.addListener(({ value }) => {
             setDisplayValue(Math.floor(value));
         });

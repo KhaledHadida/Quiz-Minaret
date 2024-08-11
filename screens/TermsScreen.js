@@ -1,6 +1,8 @@
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Text } from "react-native";
 
+//Was supposed to create a Terms & Privacy, however I changed my mind on doing this since I may not publish this on PlayStore
+//Instead I'll most likely put it on my site (portfolio) for those interested.
 const TermsScreen = () => {
     
 return(

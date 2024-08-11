@@ -67,12 +67,10 @@ class SoundManager {
 
     //Ensure we are not misusing memory
     cleanup() {
-
         if(this.appStateSubscription ){
             this.appStateSubscription.remove();
             this.appStateSubscription = null;
         }
-
         this.unloadSounds();
     }
 }
