@@ -1,8 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, TextInput, Alert, FlatList, Image, TouchableOpacity } from 'react-native';
-import { useState } from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+import { StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { useEffect } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import QuizScreen from './screens/QuizHomeScreen';
@@ -13,89 +11,153 @@ import QuizTransition from './screens/QuizTransition';
 import Quiz from './screens/QuizScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import CreditsScreen from './screens/CreditsScreen';
+import TermsScreen from './screens/TermsScreen';
+import { SharedContextProvider, useContextProvider } from './screens/ContextProvider';
+import soundManager from './components/SoundManager';
 
-//Context
-import { SharedContextProvider } from './screens/ContextProvider';
 
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
 
+//Below is the tabs that you find either on top  of screen or below at bottom.
+const TabNavigator = ({ navigation }) => {
+  const { colorTheme, soundOn } = useContextProvider();
 
-//Below is the tabs (so we can go from Quiz -> )
-const TabNavigator = ({navigation}) => {
   return (
     <Tab.Navigator
       screenOptions={{
-        tabBarActiveBackgroundColor: '#9ea87b',
-        tabBarLabel: '', // Remove tab labels
+        tabBarActiveBackgroundColor: colorTheme.colors.tabSelected,
+        tabBarLabel: '',
+        //Setting gear icon on top - what happens if pressed
         headerRight: () => (
-          <TouchableOpacity onPress={() => navigation.navigate("Settings")}>
-            <Image style={{ width: 35, height: 35, marginRight: 25 }} source={require('./assets/Settings.png')} ></Image>
+          <TouchableOpacity onPress={() => { navigation.navigate("Settings"), soundManager.playSound('menuButton', soundOn) }}>
+            <Image style={{ width: 35, height: 35, marginRight: 25, tintColor: colorTheme.colors.backgroundImg }} source={require('./assets/Settings.png')} ></Image>
           </TouchableOpacity>
         ),
       }}
     >
-      <Tab.Screen name="Quiz Minaret" component={QuizScreen}
+      {/* The quiz tab at bottom (aka home) */}
+      <Tab.Screen
+        name="Quiz Minaret"
+        component={QuizScreen}
         options={{
           headerShown: true,
           tabBarIcon: () => (
-            // <Text style={{ fontSize: 20 }}>📝</Text>
-            <Image style={{ width: 25, height: 25, marginTop: 'auto' }} source={require('./assets/home.png')}></Image>
+            <Image
+              style={{ width: 25, height: 25, marginTop: 'auto', tintColor: colorTheme.colors.backgroundImg }}
+              source={require('./assets/home.png')}
+            />
           ),
-
-        }} />
+          tabBarButton: (props) => (
+            <TouchableOpacity
+              {...props}
+              onPress={() => {
+                soundManager.playSound('menuButton', soundOn);
+                // Call the original onPress function
+                if (props.onPress) {
+                  props.onPress();
+                }
+              }}
+            >
+              {props.children}
+            </TouchableOpacity>
+          )
+        }}
+      />
       <Tab.Screen name="Leaderboard" component={Leaderboard}
         options={{
+          headerShown: true,
           tabBarIcon: () => (
-            // <Text style={{ fontSize: 20 }}>📍</Text>
-            <Image style={{ width: 25, height: 25, marginTop: 'auto' }} source={require('./assets/Leaderboard.png')}></Image>
-
+            <Image
+              style={{ width: 25, height: 25, marginTop: 'auto', tintColor: colorTheme.colors.backgroundImg }}
+              source={require('./assets/Leaderboard.png')}
+            />
           ),
-        }} />
+          tabBarButton: (props) => (
+            <TouchableOpacity
+              {...props}
+              onPress={() => {
+                soundManager.playSound('menuButton', soundOn);
+                // Call the original onPress function
+                if (props.onPress) {
+                  props.onPress();
+                }
+              }}
+            >
+              {props.children}
+            </TouchableOpacity>
+          )
+        }}
+      />
       <Tab.Screen name="My Progress" component={Progress}
         options={{
+          headerShown: true,
           tabBarIcon: () => (
-            // <Text style={{ fontSize: 20 }}>🧠</Text>
-            <Image style={{ width: 25, height: 25, marginTop: 'auto' }} source={require('./assets/Progress.png')}></Image>
+            <Image
+              style={{ width: 25, height: 25, marginTop: 'auto', tintColor: colorTheme.colors.backgroundImg }}
+              source={require('./assets/Progress.png')}
+            />
           ),
-        }} />
+          tabBarButton: (props) => (
+            <TouchableOpacity
+              {...props}
+              onPress={() => {
+                soundManager.playSound('menuButton', soundOn);
+                // Call the original onPress function
+                if (props.onPress) {
+                  props.onPress();
+                }
+              }}
+            >
+              {props.children}
+            </TouchableOpacity>
+          )
+        }}
+      />
     </Tab.Navigator>
   );
 };
 
-//This is to give background color to all screens (Default)
-const MyTheme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    background: '#F7DCB9',
-    card: '#B5C18E', // Background color for the navigation header
-  },
+//Had to encapsulate/wrap it(?) so that the ContextProvider can be accessed in App component & in all other components
+const ThemeApp = () => {
+  return (
+    <SharedContextProvider>
+      <App />
+    </SharedContextProvider>
+  );
 };
 
+const App = () => {
+  const { colorTheme } = useContextProvider();
 
+  useEffect(() => {
+    // Initialize the SoundManager
+    soundManager.init();
 
-export default function App() {
+    return () => {
+      soundManager.cleanup();
+    };
+  }, []);
+
   return (
-
     //Navigation, that points to all the different routes if you will.
-    <NavigationContainer theme={MyTheme}>
+    <NavigationContainer theme={colorTheme}>
       {/* This is the equivalent of Redux (React context)*/}
-      <SharedContextProvider>
-        <Stack.Navigator initialRouteName='Home'>
-          <Stack.Screen name="Home" component={TabNavigator} options={{ headerShown: false }} />
-          {/* name here is dynamically changed so it's ok to keep it as "Quiz Transition" */}
-          <Stack.Screen name="Quiz Transition" component={QuizTransition} />
-          <Stack.Screen name="Quiz" component={Quiz} />
-          <Stack.Screen name="Settings" component={SettingsScreen} />
-          <Stack.Screen name="Credits" component={CreditsScreen} />
-          <Stack.Screen name="Quiz Results" component={QuizResults} options={{ headerShown: false }} />
-          <Stack.Screen name="My Progress" component={Progress} />
-        </Stack.Navigator>
-      </SharedContextProvider>
+      <Stack.Navigator initialRouteName='Home'>
+        <Stack.Screen name="Home" component={TabNavigator} options={{ headerShown: false }} />
+        {/* name here is dynamically changed so it's ok to keep it as "Quiz Transition" */}
+        <Stack.Screen name="Quiz Transition" component={QuizTransition} />
+        <Stack.Screen name="Quiz" component={Quiz} />
+        <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="Credits" component={CreditsScreen} />
+        <Stack.Screen name="Quiz Results" component={QuizResults} options={{ headerShown: false }} />
+        <Stack.Screen name="My Progress" component={Progress} />
+        <Stack.Screen name="Terms & Privacy" component={TermsScreen} />
+      </Stack.Navigator>
     </NavigationContainer>
+
   );
 }
 
@@ -113,3 +175,6 @@ const styles = StyleSheet.create({
     padding: 10,
   }
 });
+
+
+export default ThemeApp;

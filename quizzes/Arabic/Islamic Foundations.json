@@ -1,601 +1,601 @@
 [
     {
-        "question": "Who is considered the first prophet in Islam?",
+        "question": "من يعتبر أول نبي في الإسلام؟",
         "answers": [
-            "Adam (as)",
-            "Noah (as)",
-            "Moses (as)",
-            "Abraham (as)"
+            "آدم (عليه السلام)",
+            "نوح (عليه السلام)",
+            "موسى (عليه السلام)",
+            "إبراهيم (عليه السلام)"
         ],
         "correctAnswer": 0,
         "id": 0
     },
     {
-        "question": "Who built the ark?",
+        "question": "من بنى السفينة؟",
         "answers": [
-            "Noah (as)",
-            "Adam (as)",
-            "Moses (as)",
-            "Abraham (as)"
+            "نوح (عليه السلام)",
+            "آدم (عليه السلام)",
+            "موسى (عليه السلام)",
+            "إبراهيم (عليه السلام)"
         ],
         "correctAnswer": 0,
         "id": 1
     },
     {
-        "question": "Which Prophet (as) had control of the Jinn and was able to talk to animals?",
+        "question": "أي نبي (عليه السلام) كان يتحكم في الجن وكان يستطيع التحدث مع الحيوانات؟",
         "answers": [
-            "Sulaiman (as)",
-            "Dawud (as)",
-            "Yunus (as)",
-            "Musa (as)"
+            "سليمان (عليه السلام)",
+            "داوود (عليه السلام)",
+            "يونس (عليه السلام)",
+            "موسى (عليه السلام)"
         ],
         "correctAnswer": 0,
         "id": 2
     },
     {
-        "question": "Whose dua Allah will not accept?",
+        "question": "دعاء من لا يقبله الله؟",
         "answers": [
-            "A person who asks Allah many times",
-            "A person who asks Allah using a dead person as an intermediary",
-            "A person who asks Allah with tears",
-            "None of the above"
+            "شخص يطلب من الله مرات عديدة",
+            "شخص يطلب من الله باستخدام شخص ميت كوسيط",
+            "شخص يطلب من الله بدموع",
+            "لا شيء مما سبق"
         ],
         "correctAnswer": 1,
         "id": 3
     },
     {
-        "question": "What does Allah's name Al-Mu'izz mean?",
+        "question": "ماذا يعني اسم الله المعز؟",
         "answers": [
-            "The One who dishonours ",
-            "The One who will judge",
-            "The One who honours",
-            "The One who sees it all"
+            "الذي يهين",
+            "الذي سيحكم",
+            "الذي يكرم",
+            "الذي يرى كل شيء"
         ],
         "correctAnswer": 2,
         "id": 4
     },
     {
-        "question": "Which of the following is not an example of Major Shirk?",
+        "question": "أي من التالي ليس مثالًا على الشرك الأكبر؟",
         "answers": [
-            "Asking help from a Prophet ",
-            "Going to a pious person's grave for blessings ",
-            "Denying Allah & His religion ",
-            "Showing off"
+            "طلب المساعدة من نبي",
+            "الذهاب إلى قبر شخص صالح للحصول على البركة",
+            "إنكار الله ودينه",
+            "الرياء"
         ],
         "correctAnswer": 3,
         "id": 5
     },
     {
-        "question": "Which 2 surahs are for seeking protection in Allah from evil-eye & witchcraft?",
+        "question": "ما هما السورتان للحماية بالله من العين الشريرة والسحر؟",
         "answers": [
-            "Naas & Yaseen",
-            "Yaseen & Falaq",
-            "Naas & Ikhlas",
-            "Falaq & Naas"
+            "الناس ويس",
+            "يس والفلق",
+            "الناس والإخلاص",
+            "الفلق والناس"
         ],
         "correctAnswer": 3,
         "id": 6
     },
     {
-        "question": "What was the relation between Prophet Musa (as) & Prophet Haroon (as)?",
+        "question": "ما هي العلاقة بين النبي موسى (عليه السلام) والنبي هارون (عليه السلام)؟",
         "answers": [
-            "Cousins",
-            "Brothers",
-            "Father & Son",
-            "Friends"
+            "أبناء عمومة",
+            "إخوة",
+            "أب وابن",
+            "أصدقاء"
         ],
         "correctAnswer": 1,
         "id": 7
     },
     {
-        "question": "What is Sidrat al-Muntaha?",
+        "question": "ما هو سدرة المنتهى؟",
         "answers": [
-            "Food for the people of Jannah",
-            "An olive tree of the farthest boundary",
-            "A lote tree of the farthest boundary",
-            "Drink for the people of Jannah"
+            "طعام أهل الجنة",
+            "شجرة زيتون عند أقصى الحدود",
+            "شجرة سدرة عند أقصى الحدود",
+            "شراب أهل الجنة"
         ],
         "correctAnswer": 2,
         "id": 8
     },
     {
-        "question": "What is Az-Zaqqum?",
+        "question": "ما هو الزقوم؟",
         "answers": [
-            "Food for the people of hellfire",
-            "Drink for the people of hellfire",
-            "Home for the people of hellfire",
-            "Clothes for the people of hellfire"
+            "طعام أهل النار",
+            "شراب أهل النار",
+            "مسكن أهل النار",
+            "ملابس أهل النار"
         ],
         "correctAnswer": 0,
         "id": 9
     },
     {
         "id": 10,
-        "question": "What is the central religious text of Islam?",
+        "question": "ما هو النص الديني المركزي في الإسلام؟",
         "answers": [
-            "The Bible",
-            "The Torah",
-            "The Quran",
-            "The Vedas"
+            "الكتاب المقدس",
+            "التوراة",
+            "القرآن",
+            "الفيدا"
         ],
         "correctAnswer": 2
     },
     {
         "id": 11,
-        "question": "Who is considered the final prophet in Islam?",
+        "question": "من يعتبر النبي الأخير في الإسلام؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Jesus",
-            "Prophet Muhammad",
-            "Prophet Abraham"
+            "النبي موسى (عليه السلام)",
+            "النبي عيسى (عليه السلام)",
+            "النبي محمد (صلى الله عليه وسلم)",
+            "النبي إبراهيم (عليه السلام)"
         ],
         "correctAnswer": 2
     },
     {
         "id": 12,
-        "question": "What is the term for the sayings and actions of Prophet Muhammad?",
+        "question": "ما هو المصطلح للأقوال والأفعال النبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Hadith",
-            "Sunnah",
-            "Tafsir",
-            "Fiqh"
+            "الحديث",
+            "السنة",
+            "التفسير",
+            "الفقه"
         ],
         "correctAnswer": 1
     },
     {
         "id": 13,
-        "question": "Which angel is believed to have revealed the Quran to Prophet Muhammad?",
+        "question": "أي ملاك يُعتقد أنه نزل بالقرآن على النبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Angel Gabriel",
-            "Angel Michael",
-            "Angel Raphael",
-            "Angel Azrael"
+            "الملاك جبريل (عليه السلام)",
+            "الملاك ميكائيل (عليه السلام)",
+            "الملاك إسرافيل (عليه السلام)",
+            "الملاك عزرائيل (عليه السلام)"
         ],
         "correctAnswer": 0
     },
     {
         "id": 14,
-        "question": "What is the Arabic term for the creed that declares faith in the oneness of Allah and the prophethood of Muhammad?",
+        "question": "ما هو المصطلح العربي للشهادة التي تعلن الإيمان بوحدانية الله ونبوة محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Shahada",
-            "Salat",
-            "Zakat",
-            "Hajj"
+            "الشهادة",
+            "الصلاة",
+            "الزكاة",
+            "الحج"
         ],
         "correctAnswer": 0
     },
     {
         "id": 15,
-        "question": "What is the term for the interpretation and commentary on the Quran?",
+        "question": "ما هو المصطلح للتفسير والتعليق على القرآن؟",
         "answers": [
-            "Hadith",
-            "Tafsir",
-            "Fiqh",
-            "Sunnah"
+            "الحديث",
+            "التفسير",
+            "الفقه",
+            "السنة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 16,
-        "question": "Which Prophet is known for building the Kaaba in Mecca?",
+        "question": "أي نبي معروف ببناء الكعبة في مكة؟",
         "answers": [
-            "Prophet Noah",
-            "Prophet Moses",
-            "Prophet Abraham",
-            "Prophet Solomon"
+            "النبي نوح (عليه السلام)",
+            "النبي موسى (عليه السلام)",
+            "النبي إبراهيم (عليه السلام)",
+            "النبي سليمان (عليه السلام)"
         ],
         "correctAnswer": 2
     },
     {
         "id": 17,
-        "question": "What is the term for the belief in the oneness of Allah?",
+        "question": "ما هو المصطلح للإيمان بوحدانية الله؟",
         "answers": [
-            "Shirk",
-            "Tawhid",
-            "Kufr",
-            "Nifaq"
+            "الشرك",
+            "التوحيد",
+            "الكفر",
+            "النفاق"
         ],
         "correctAnswer": 1
     },
     {
         "id": 18,
-        "question": "What is the term for the practice of following the example of Prophet Muhammad (PBUH)?",
+        "question": "ما هو المصطلح لممارسة اتباع مثال النبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Bid'ah",
-            "Ijtihad",
-            "Sunnah",
-            "Tafsir"
+            "البدعة",
+            "الاجتهاد",
+            "السنة",
+            "التفسير"
         ],
         "correctAnswer": 2
     },
     {
         "id": 19,
-        "question": "Which Prophet is known for his patience and suffering?",
+        "question": "أي نبي معروف بصبره ومعاناته؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Job",
-            "Prophet Solomon",
-            "Prophet Jonah"
+            "النبي موسى (عليه السلام)",
+            "النبي أيوب (عليه السلام)",
+            "النبي سليمان (عليه السلام)",
+            "النبي يونس (عليه السلام)"
         ],
         "correctAnswer": 1
     },
     {
         "id": 20,
-        "question": "What is the Arabic term for the obligatory acts of worship in Islam?",
+        "question": "ما هو المصطلح العربي للأعمال العبادة الواجبة في الإسلام؟",
         "answers": [
-            "Sunnah",
-            "Fard",
-            "Mustahabb",
-            "Makruh"
+            "السنة",
+            "الفرض",
+            "المستحب",
+            "المكروه"
         ],
         "correctAnswer": 1
     },
     {
         "id": 21,
-        "question": "What is the term for the divine guidance given to all prophets in Islam?",
+        "question": "ما هو المصطلح للإرشاد الإلهي الذي أعطي لجميع الأنبياء في الإسلام؟",
         "answers": [
-            "Wahy",
-            "Fiqh",
-            "Ijtihad",
-            "Sharia"
+            "الوحي",
+            "الفقه",
+            "الاجتهاد",
+            "الشريعة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 22,
-        "question": "Which Prophet is known for his wisdom and ruling a vast kingdom?",
+        "question": "أي نبي معروف بحكمته وحكم مملكة واسعة؟",
         "answers": [
-            "Prophet David",
-            "Prophet Solomon",
-            "Prophet Joseph",
-            "Prophet Moses"
+            "النبي داوود (عليه السلام)",
+            "النبي سليمان (عليه السلام)",
+            "النبي يوسف (عليه السلام)",
+            "النبي موسى (عليه السلام)"
         ],
         "correctAnswer": 1
     },
     {
         "id": 23,
-        "question": "Which Prophet (as) addressed the ruler King Nimrod?",
+        "question": "أي نبي (عليه السلام) خاطب الملك نمرود؟",
         "answers": [
-            "Prophet Ibrahim",
-            "Prophet Isa",
-            "Prophet Yusuf ",
-            "Prophet Lut"
+            "النبي إبراهيم (عليه السلام)",
+            "النبي عيسى (عليه السلام)",
+            "النبي يوسف (عليه السلام)",
+            "النبي لوط (عليه السلام)"
         ],
         "correctAnswer": 0
     },
     {
         "id": 24,
-        "question": "Which Prophet is associated with the parting of the Red Sea?",
+        "question": "أي نبي يرتبط بشق البحر الأحمر؟",
         "answers": [
-            "Prophet Abraham",
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jesus"
+            "النبي إبراهيم (عليه السلام)",
+            "النبي موسى (عليه السلام)",
+            "النبي يوسف (عليه السلام)",
+            "النبي عيسى (عليه السلام)"
         ],
         "correctAnswer": 1
     },
     {
         "id": 25,
-        "question": "What is the term for the belief in all the prophets sent by Allah?",
+        "question": "ما هو المصطلح للإيمان بجميع الأنبياء الذين أرسلهم الله؟",
         "answers": [
-            "Iman",
-            "Tawhid",
-            "Risalah",
-            "Akhirah"
+            "الإيمان",
+            "التوحيد",
+            "الرسالة",
+            "الآخرة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 26,
-        "question": "What is the name of the Prophet who was swallowed by a whale?",
+        "question": "ما هو اسم النبي الذي ابتلعه الحوت؟",
         "answers": [
-            "Prophet Jonah",
-            "Prophet Job",
-            "Prophet Noah",
-            "Prophet Lot"
+            "النبي يونس (عليه السلام)",
+            "النبي أيوب (عليه السلام)",
+            "النبي نوح (عليه السلام)",
+            "النبي لوط (عليه السلام)"
         ],
         "correctAnswer": 0
     },
     {
         "id": 27,
-        "question": "What is the term for the jurisprudence and legal framework in Islam?",
+        "question": "ما هو المصطلح للشريعة والإطار القانوني في الإسلام؟",
         "answers": [
-            "Fiqh",
-            "Tafsir",
-            "Hadith",
-            "Sunnah"
+            "الفقه",
+            "التفسير",
+            "الحديث",
+            "السنة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 28,
-        "question": "According to the Prophet (PBUH), honesty leads to what?",
+        "question": "وفقاً للنبي (صلى الله عليه وسلم)، ما الذي يؤدي إليه الصدق؟",
         "answers": [
-            "Increase in Children",
-            "Increase in Lifespan",
-            "Increase in Goodness/Righteousness",
-            "Increase in Wealth"
+            "زيادة في الأطفال",
+            "زيادة في العمر",
+            "زيادة في الخير/البر",
+            "زيادة في الثروة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 29,
-        "question": "What is the Arabic term for the articles of faith in Islam?",
+        "question": "ما هو المصطلح العربي لمقالات الإيمان في الإسلام؟",
         "answers": [
-            "Sharia",
-            "Aqeedah",
-            "Sunnah",
-            "Fard"
+            "الشريعة",
+            "العقيدة",
+            "السنة",
+            "الفرض"
         ],
         "correctAnswer": 1
     },
     {
         "id": 30,
-        "question": "Which angel is responsible for blowing the trumpet to announce the Day of Judgment?",
+        "question": "أي ملاك مسؤول عن النفخ في البوق لإعلان يوم القيامة؟",
         "answers": [
-            "Angel Gabriel",
-            "Angel Michael",
-            "Angel Raphael",
-            "Angel Israfil"
+            "الملاك جبريل (عليه السلام)",
+            "الملاك ميكائيل (عليه السلام)",
+            "الملاك عزرائيل (عليه السلام)",
+            "الملاك إسرافيل (عليه السلام)"
         ],
         "correctAnswer": 3
     },
     {
         "id": 31,
-        "question": "For whom is this dua for? - Rabbir Humhumma Kama Rabba Yaani Sahgeera?",
+        "question": "لمن هذه الدعاء؟ - رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا؟",
         "answers": [
-            "Children",
-            "Parents",
-            "Whole Ummah",
-            "The Deceased"
+            "الأطفال",
+            "الوالدين",
+            "كل الأمة",
+            "المتوفين"
         ],
         "correctAnswer": 1
     },
     {
         "id": 32,
-        "question": "What is the term for the Islamic declaration of faith?",
+        "question": "ما هو مصطلح إعلان الإيمان الإسلامي؟",
         "answers": [
-            "Salat",
-            "Zakat",
-            "Shahada",
-            "Hajj"
+            "الصلاة",
+            "الزكاة",
+            "الشهادة",
+            "الحج"
         ],
         "correctAnswer": 2
     },
     {
         "id": 33,
-        "question": "Which Prophet was thrown into a fire but was unharmed by it?",
+        "question": "أي نبي أُلقي في النار ولم يمسسه ضر؟",
         "answers": [
-            "Prophet Musa",
-            "Prophet Sulayman",
-            "Prophet Ibrahim",
-            "Prophet Yusuf"
+            "النبي موسى",
+            "النبي سليمان",
+            "النبي إبراهيم",
+            "النبي يوسف"
         ],
         "correctAnswer": 2
     },
     {
         "id": 34,
-        "question": "What is the name of the first wife of Prophet Muhammad (PBUH)?",
+        "question": "ما اسم الزوجة الأولى للنبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Aisha",
-            "Khadijah",
-            "Hafsa",
-            "Fatimah"
+            "عائشة",
+            "خديجة",
+            "حفصة",
+            "فاطمة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 35,
-        "question": "What is the name of the father of Prophet Muhammad (PBUH)?",
+        "question": "ما اسم والد النبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Abu Talib",
-            "Abdullah",
-            "Abdul Muttalib",
-            "Hamza"
+            "أبو طالب",
+            "عبد الله",
+            "عبد المطلب",
+            "حمزة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 36,
-        "question": "Which Prophet was commanded by Allah to sacrifice his son but was stopped at the last moment?",
+        "question": "أي نبي أمره الله بالتضحية بابنه ولكن أوقفه الله في اللحظة الأخيرة؟",
         "answers": [
-            "Prophet Nuh",
-            "Prophet Ibrahim",
-            "Prophet Yaqub",
-            "Prophet Yusuf"
+            "النبي نوح",
+            "النبي إبراهيم",
+            "النبي يعقوب",
+            "النبي يوسف"
         ],
         "correctAnswer": 1
     },
     {
         "id": 37,
-        "question": "Which Surah is referred as the oft-repeating verses Surah?",
+        "question": "أي سورة تُعرف بأنها سورة الآيات المتكررة؟",
         "answers": [
-            "Surah Ikhlas",
-            "Surah Fatihah ",
-            "Surah Naas",
-            "Surah Rahman"
+            "سورة الإخلاص",
+            "سورة الفاتحة",
+            "سورة الناس",
+            "سورة الرحمن"
         ],
         "correctAnswer": 1
     },
     {
         "id": 38,
-        "question": "Which Prophet is known for his miraculous birth and being a sign for mankind?",
+        "question": "أي نبي معروف بميلاده العجيب وكان آية للبشر؟",
         "answers": [
-            "Prophet Musa",
-            "Prophet Isa",
-            "Prophet Yahya",
-            "Prophet Muhammad"
+            "النبي موسى",
+            "النبي عيسى",
+            "النبي يحيى",
+            "النبي محمد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 39,
-        "question": "What is the term for the collective community of Muslims around the world?",
+        "question": "ما هو مصطلح المجتمع الإسلامي حول العالم؟",
         "answers": [
-            "Ummah",
-            "Sharia",
-            "Khilafah",
-            "Sunnah"
+            "الأمة",
+            "الشريعة",
+            "الخلافة",
+            "السنة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 40,
-        "question": "Which Prophet received the Psalms from Allah?",
+        "question": "أي نبي تلقى الزبور من الله؟",
         "answers": [
-            "Prophet Musa",
-            "Prophet Dawud",
-            "Prophet Sulayman",
-            "Prophet Isa"
+            "النبي موسى",
+            "النبي داود",
+            "النبي سليمان",
+            "النبي عيسى"
         ],
         "correctAnswer": 1
     },
     {
         "id": 41,
-        "question": "What is the term for the divine law derived from the Quran and the Sunnah?",
+        "question": "ما هو مصطلح القانون الإلهي المستمد من القرآن والسنة؟",
         "answers": [
-            "Fiqh",
-            "Tafsir",
-            "Sharia",
-            "Hadith"
+            "الفقه",
+            "التفسير",
+            "الشريعة",
+            "الحديث"
         ],
         "correctAnswer": 2
     },
     {
         "id": 42,
-        "question": "What is the name of the cave where Prophet Muhammad (PBUH) received his first revelation?",
+        "question": "ما هو اسم الغار الذي تلقى فيه النبي محمد (صلى الله عليه وسلم) الوحي الأول؟",
         "answers": [
-            "Cave Thawr",
-            "Cave Hira",
-            "Cave Saur",
-            "Cave Al-Nour"
+            "غار ثور",
+            "غار حراء",
+            "غار سائر",
+            "غار النور"
         ],
         "correctAnswer": 1
     },
     {
         "id": 43,
-        "question": "In which Surah (chapter) do you find the first verse about Sajda (prostation)?",
+        "question": "في أي سورة تجد الآية الأولى عن السجدة؟",
         "answers": [
-            "Surat Al-Isra",
-            "Surat Al-Baqarah",
-            "Surat Al-A'raf ",
-            "Surat An-Nur"
+            "سورة الإسراء",
+            "سورة البقرة",
+            "سورة الأعراف",
+            "سورة النور"
         ],
         "correctAnswer": 2
     },
     {
         "id": 44,
-        "question": "What is the name of the mother of Prophet Isa?",
+        "question": "ما هو اسم والدة النبي عيسى؟",
         "answers": [
-            "Maryam",
-            "Hannah",
-            "Sarah",
-            "Asiya"
+            "مريم",
+            "حنة",
+            "سارة",
+            "آسية"
         ],
         "correctAnswer": 0
     },
     {
         "id": 45,
-        "question": "What is the term for the ethical and moral code prescribed in the Quran and Sunnah?",
+        "question": "ما هو مصطلح السلوك الأخلاقي والرمز الأخلاقي الموصوف في القرآن والسنة؟",
         "answers": [
-            "Akhlaq",
-            "Tawhid",
-            "Fiqh",
-            "Tafsir"
+            "الأخلاق",
+            "التوحيد",
+            "الفقه",
+            "التفسير"
         ],
         "correctAnswer": 0
     },
     {
         "id": 46,
-        "question": "What is the name of Madinah in the Quran?",
+        "question": "ما هو اسم المدينة في القرآن؟",
         "answers": [
-            "Bakkah",
-            "Quds",
-            "Marwah",
-            "Yathrib"
+            "بكة",
+            "القدس",
+            "المروة",
+            "يثرب"
         ],
         "correctAnswer": 3
     },
     {
         "id": 47,
-        "question": "What is the term for the Islamic theology and belief system?",
+        "question": "ما هو مصطلح اللاهوت الإسلامي ونظام المعتقدات؟",
         "answers": [
-            "Akhlaq",
-            "Aqeedah",
-            "Fiqh",
-            "Sharia"
+            "الأخلاق",
+            "العقيدة",
+            "الفقه",
+            "الشريعة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 48,
-        "question": "Which Prophet is known for his steadfastness and being thrown into a lion's den?",
+        "question": "أي نبي معروف بثباته وأُلقي في عرين الأسد؟",
         "answers": [
-            "Prophet Yunus",
-            "Prophet Daniel",
-            "Prophet Ayub",
-            "Prophet Yaqub"
+            "النبي يونس",
+            "النبي دانيال",
+            "النبي أيوب",
+            "النبي يعقوب"
         ],
         "correctAnswer": 1
     },
     {
         "id": 49,
-        "question": "What is the meaning of Sirat al Mustaqim ?",
+        "question": "ما هو معنى الصراط المستقيم؟",
         "answers": [
-            "the straight path",
-            "the narrow path",
-            "the open path",
-            "the confined path"
+            "الطريق المستقيم",
+            "الطريق الضيق",
+            "الطريق المفتوح",
+            "الطريق المحدود"
         ],
         "correctAnswer": 0
     },
     {
         "id": 50,
-        "question": "What is the reward for reciting Surah Ikhlas 10 times?",
+        "question": "ما هي المكافأة لقراءة سورة الإخلاص 10 مرات؟",
         "answers": [
-            "A palace in Paradise",
-            "A huge tree in Paradise",
-            "A special fountain in Paradise",
-            "A delicious meal in Paradise"
+            "قصر في الجنة",
+            "شجرة ضخمة في الجنة",
+            "نافورة خاصة في الجنة",
+            "وجبة لذيذة في الجنة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 51,
-        "question": "Which fruit is mentioned in the Quran?",
+        "question": "أي فاكهة ذُكرت في القرآن؟",
         "answers": [
-            "Grapes ",
-            "Apples",
-            "Mangoes",
-            "Oranges"
+            "العنب",
+            "التفاح",
+            "المانجو",
+            "البرتقال"
         ],
         "correctAnswer": 0
     },
     {
         "id": 52,
-        "question": "Which type of people Jibraeel (as) & the Prophet (PBUH) cursed?",
+        "question": "أي نوع من الناس لعنهم جبريل (عليه السلام) والنبي (صلى الله عليه وسلم)؟",
         "answers": [
-            "The one who doesn't serve his elderly parents",
-            "The one who doesn't reply to salaam",
-            "The one who doesn't give gifts",
-            "The one who doesn't shower on Fridays"
+            "الذي لا يخدم والديه المسنين",
+            "الذي لا يرد على السلام",
+            "الذي لا يعطي هدايا",
+            "الذي لا يغتسل في الجمعة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 53,
-        "question": "What is the name of the night when the Quran was first revealed to Prophet Muhammad (PBUH)?",
+        "question": "ما هو اسم الليلة التي نزل فيها القرآن على النبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Laylat al-Qadr",
-            "Isra and Miraj",
-            "Eid al-Fitr",
-            "Ramadan"
+            "ليلة القدر",
+            "الإسراء والمعراج",
+            "عيد الفطر",
+            "رمضان"
         ],
         "correctAnswer": 0
     },
     {
         "id": 54,
-        "question": "How many Prophets (as) are mentioned by name in the Quran?",
+        "question": "كم عدد الأنبياء الذين ذُكروا بأسمائهم في القرآن؟",
         "answers": [
             "25",
             "23",
@@ -606,73 +606,73 @@
     },
     {
         "id": 55,
-        "question": "which battle is mentioned in surah Anfal?",
+        "question": "أي معركة ذُكرت في سورة الأنفال؟",
         "answers": [
-            "Badr",
-            "Uhud",
-            "Ahzab",
-            "Tabuk"
+            "بدر",
+            "أحد",
+            "الأحزاب",
+            "تبوك"
         ],
         "correctAnswer": 0
     },
     {
         "id": 56,
-        "question": "Which Prophet was known for his dream interpretations and was sold into slavery by his brothers?",
+        "question": "أي نبي كان معروفًا بتفسير الأحلام وبيع كعبد من قبل إخوته؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jacob",
-            "Prophet Job"
+            "النبي موسى",
+            "النبي يوسف",
+            "النبي يعقوب",
+            "النبي أيوب"
         ],
         "correctAnswer": 1
     },
     {
         "id": 57,
-        "question": "What is the name of the well where Prophet Ismail and his mother Hajar were saved by water in the desert?",
+        "question": "ما هو اسم البئر الذي أنقذ فيه النبي إسماعيل ووالدته هاجر بالماء في الصحراء؟",
         "answers": [
-            "Well of Zamzam",
-            "Well of Salsabeel",
-            "Well of Hajr",
-            "Well of Rahmah"
+            "بئر زمزم",
+            "بئر سلسبيل",
+            "بئر هاجر",
+            "بئر الرحمة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 58,
-        "question": "Which Prophet is known for being thrown into a furnace by his people but was saved by Allah?",
+        "question": "أي نبي معروف بأنه أُلقي في الفرن من قبل قومه ولكن الله أنقذه؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Abraham",
-            "Prophet Joseph",
-            "Prophet Noah"
+            "النبي موسى",
+            "النبي إبراهيم",
+            "النبي يوسف",
+            "النبي نوح"
         ],
         "correctAnswer": 1
     },
     {
         "id": 59,
-        "question": "What is the term for the biography of Prophet Muhammad (PBUH)?",
+        "question": "ما هو مصطلح سيرة النبي محمد (صلى الله عليه وسلم)؟",
         "answers": [
-            "Hadith",
-            "Sunnah",
-            "Seerah",
-            "Tafsir"
+            "الحديث",
+            "السنة",
+            "السيرة",
+            "التفسير"
         ],
         "correctAnswer": 2
     },
     {
         "id": 60,
-        "question": "Which Surah in the Quran is the longest?",
+        "question": "أي سورة في القرآن هي الأطول؟",
         "answers": [
-            "Surah Al-Baqarah",
-            "Surah Al-Imran",
-            "Surah Al-Maidah",
-            "Surah An-Nisa"
+            "سورة البقرة",
+            "سورة آل عمران",
+            "سورة المائدة",
+            "سورة النساء"
         ],
         "correctAnswer": 0
     },
     {
         "id": 61,
-        "question": "How many Prophets did Prophet Muhammad ﷺ meet on the different heavens during Isra wal Miraaj?",
+        "question": "كم عدد الأنبياء الذين التقى بهم النبي محمد (صلى الله عليه وسلم) في السماوات المختلفة خلال الإسراء والمعراج؟",
         "answers": [
             "5",
             "6",
@@ -683,315 +683,315 @@
     },
     {
         "id": 62,
-        "question": "Which Prophet is known for his miraculous speaking ability as an infant?",
+        "question": "أي نبي معروف بقدرته المعجزة على التحدث كطفل رضيع؟",
         "answers": [
-            "Prophet Musa",
-            "Prophet Isa",
-            "Prophet Yusuf",
-            "Prophet Muhammad"
+            "النبي موسى",
+            "النبي عيسى",
+            "النبي يوسف",
+            "النبي محمد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 63,
-        "question": "What is the term for the Islamic belief in the unseen, including angels and jinn?",
+        "question": "ما هو مصطلح الإيمان الإسلامي بالغيب بما في ذلك الملائكة والجن؟",
         "answers": [
-            "Tawhid",
-            "Ghaib",
-            "Aqeedah",
-            "Akhlaq"
+            "التوحيد",
+            "الغيب",
+            "العقيدة",
+            "الأخلاق"
         ],
         "correctAnswer": 1
     },
     {
         "id": 64,
-        "question": "When will the Prophet (PBUH) intercede for us?",
+        "question": "متى يشفع لنا النبي (صلى الله عليه وسلم)؟",
         "answers": [
-            "In his (PBUH) grave",
-            "On the Day of Resurrection",
-            "In our graves",
-            "On the Sirat"
+            "في قبره (صلى الله عليه وسلم)",
+            "يوم القيامة",
+            "في قبورنا",
+            "على الصراط"
         ],
         "correctAnswer": 1
     },
     {
         "id": 65,
-        "question": "What is the Arabic term for 'faith'?",
+        "question": "ما هو المصطلح العربي للإيمان؟",
         "answers": [
-            "Islam",
-            "Iman",
-            "Ihsan",
-            "Taqwa"
+            "الإسلام",
+            "الإيمان",
+            "الإحسان",
+            "التقوى"
         ],
         "correctAnswer": 1
     },
     {
         "id": 66,
-        "question": "Which Prophet is known for being the father of the Arab nations through his son Ishmael?",
+        "question": "أي نبي معروف بأنه أبو الأمم العربية من خلال ابنه إسماعيل؟",
         "answers": [
-            "Prophet Abraham",
-            "Prophet Moses",
-            "Prophet Noah",
-            "Prophet Solomon"
+            "النبي إبراهيم",
+            "النبي موسى",
+            "النبي نوح",
+            "النبي سليمان"
         ],
         "correctAnswer": 0
     },
     {
         "id": 67,
-        "question": "What is the name of the wife of Pharaoh who saved and adopted Prophet Moses?",
+        "question": "ما اسم زوجة فرعون التي أنقذت وتبنت النبي موسى؟",
         "answers": [
-            "Hannah",
-            "Asiya",
-            "Sarah",
-            "Maryam"
+            "حنة",
+            "آسية",
+            "سارة",
+            "مريم"
         ],
         "correctAnswer": 1
     },
     {
         "id": 68,
-        "question": "Which Prophet is known for his patience in dealing with the betrayal of his brothers and his time in prison?",
+        "question": "أي نبي معروف بصبره في التعامل مع خيانة إخوته ووقته في السجن؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jonah",
-            "Prophet Job"
+            "النبي موسى",
+            "النبي يوسف",
+            "النبي يونس",
+            "النبي أيوب"
         ],
         "correctAnswer": 1
     },
     {
         "id": 69,
-        "question": "What is the term for the Islamic legal system derived from the Quran and Hadith?",
+        "question": "ما هو مصطلح النظام القانوني الإسلامي المستمد من القرآن والحديث؟",
         "answers": [
-            "Fiqh",
-            "Tafsir",
-            "Sharia",
-            "Aqeedah"
+            "الفقه",
+            "التفسير",
+            "الشريعة",
+            "العقيدة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 70,
-        "question": "The angels at the Battle of Badr copied which sahabi's yellow turban?",
+        "question": "الملائكة في غزوة بدر ارتدوا نسخة من عمامة صفراء لأي صحابي؟",
         "answers": [
-            "Sa'ad ibn Abi Waqqas",
-            "Bilal ibn Rabbah ",
-            "Zubayr ibn Awwam",
-            "Ali ibn Abi Taalib"
+            "سعد بن أبي وقاص",
+            "بلال بن رباح",
+            "الزبير بن العوام",
+            "علي بن أبي طالب"
         ],
         "correctAnswer": 2
     },
     {
         "id": 71,
-        "question": "According to Qur'an these two things become the responsibility of the Islamic State to establish in the society?",
+        "question": "وفقاً للقرآن، هذان الأمران يصبحان من مسؤولية الدولة الإسلامية لإقامتهما في المجتمع؟",
         "answers": [
-            "Sawm and Hajj",
-            "Salat and Hajj",
-            "Salat and Zakat",
-            "Zakat and Sawm"
+            "الصوم والحج",
+            "الصلاة والحج",
+            "الصلاة والزكاة",
+            "الزكاة والصوم"
         ],
         "correctAnswer": 2
     },
     {
         "id": 72,
-        "question": "Which Prophet is known for his beauty and being falsely accused by the wife of the Egyptian official?",
+        "question": "أي نبي معروف بجماله واتهامه زوراً من زوجة المسؤول المصري؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jacob",
-            "Prophet Solomon"
+            "النبي موسى",
+            "النبي يوسف",
+            "النبي يعقوب",
+            "النبي سليمان"
         ],
         "correctAnswer": 1
     },
     {
         "id": 73,
-        "question": "What is the term for the practice of charity or almsgiving in Islam?",
+        "question": "ما هو مصطلح ممارسة الصدقة في الإسلام؟",
         "answers": [
-            "Zakat",
-            "Sadaqah",
-            "Hajj",
-            "Salat"
+            "الزكاة",
+            "الصدقة",
+            "الحج",
+            "الصلاة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 74,
-        "question": "Which Prophet is known for being tested by Allah with severe illness and loss of wealth and children?",
+        "question": "أي نبي معروف بأنه اختبره الله بمرض شديد وفقدان الثروة والأطفال؟",
         "answers": [
-            "Prophet Jonah",
-            "Prophet Job",
-            "Prophet Joseph",
-            "Prophet Moses"
+            "النبي يونس",
+            "النبي أيوب",
+            "النبي يوسف",
+            "النبي موسى"
         ],
         "correctAnswer": 1
     },
     {
         "id": 75,
-        "question": "Which Surah in the Quran emphasizes the oneness of Allah?",
+        "question": "أي سورة في القرآن تؤكد على وحدانية الله؟",
         "answers": [
-            "Surah Al-Falaq",
-            "Surah Al-Ikhlas",
-            "Surah An-Nas",
-            "Surah Al-Masad"
+            "سورة الفلق",
+            "سورة الإخلاص",
+            "سورة الناس",
+            "سورة المسد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 76,
-        "question": "Which Prophet is known for his prayer for a righteous son?",
+        "question": "أي نبي معروف بدعائه للحصول على ابن صالح؟",
         "answers": [
-            "Prophet Ibrahim",
-            "Prophet Yusuf",
-            "Prophet Zakariya",
-            "Prophet Musa"
+            "النبي إبراهيم",
+            "النبي يوسف",
+            "النبي زكريا",
+            "النبي موسى"
         ],
         "correctAnswer": 2
     },
     {
         "id": 77,
-        "question": "Which prophet has been mentioned in the Quran as a friend of Allah?",
+        "question": "أي نبي ذكر في القرآن كصديق لله؟",
         "answers": [
-            "Prophet Jesus (PBUH)",
-            "Prophet Muhammad (PBUH)",
-            "Prophet Moses (PBUH)",
-            "Prophet Abraham (PBUH)"
+            "النبي عيسى (عليه السلام)",
+            "النبي محمد (صلى الله عليه وسلم)",
+            "النبي موسى (عليه السلام)",
+            "النبي إبراهيم (عليه السلام)"
         ],
         "correctAnswer": 3
     },
     {
         "id": 78,
-        "question": "What is the term for the Islamic prayer that is performed five times a day?",
+        "question": "ما هو مصطلح الصلاة الإسلامية التي تؤدى خمس مرات في اليوم؟",
         "answers": [
-            "Zakat",
-            "Hajj",
-            "Sadaqah",
-            "Salat"
+            "الزكاة",
+            "الحج",
+            "الصدقة",
+            "الصلاة"
         ],
         "correctAnswer": 3
     },
     {
         "id": 79,
-        "question": "Which Prophet is known for his miraculous ability to speak as a newborn?",
+        "question": "أي نبي معروف بقدرته المعجزة على التحدث كمولود؟",
         "answers": [
-            "Prophet Moses",
-            "Prophet Jesus",
-            "Prophet Joseph",
-            "Prophet Solomon"
+            "النبي موسى",
+            "النبي عيسى",
+            "النبي يوسف",
+            "النبي سليمان"
         ],
         "correctAnswer": 1
     },
     {
         "id": 80,
-        "question": "Which Surah of the Quran is known as the 'Heart of the Quran'?",
+        "question": "أي سورة في القرآن تعرف بـ 'قلب القرآن'؟",
         "answers": [
-            "Surah Yaseen",
-            "Surah Al-Baqarah",
-            "Surah Al-Fatiha",
-            "Surah Al-Ikhlas"
+            "سورة يس",
+            "سورة البقرة",
+            "سورة الفاتحة",
+            "سورة الإخلاص"
         ],
         "correctAnswer": 0
     },
     {
         "id": 81,
-        "question": "Which Prophet was known for his eloquence and for calling the people of Ad to the worship of Allah?",
+        "question": "أي نبي كان معروفًا ببلاغته ودعوته لقوم عاد إلى عبادة الله؟",
         "answers": [
-            "Prophet Hud",
-            "Prophet Salih",
-            "Prophet Shuaib",
-            "Prophet Yunus"
+            "النبي هود",
+            "النبي صالح",
+            "النبي شعيب",
+            "النبي يونس"
         ],
         "correctAnswer": 0
     },
     {
         "id": 82,
-        "question": "What is the Arabic term for the concept of monotheism in Islam?",
+        "question": "ما هو المصطلح العربي لمفهوم التوحيد في الإسلام؟",
         "answers": [
-            "Tawhid",
-            "Shirk",
-            "Bid'ah",
-            "Nifaq"
+            "التوحيد",
+            "الشرك",
+            "البدعة",
+            "النفاق"
         ],
         "correctAnswer": 0
     },
     {
         "id": 83,
-        "question": "Which Prophet is mentioned the most times in the Quran?",
+        "question": "أي نبي ذكر ذكره أكثر مرات في القرآن؟",
         "answers": [
-            "Prophet Musa",
-            "Prophet Ibrahim",
-            "Prophet Nuh",
-            "Prophet Isa"
+            "النبي موسى",
+            "النبي إبراهيم",
+            "النبي نوح",
+            "النبي عيسى"
         ],
         "correctAnswer": 0
     },
     {
         "id": 84,
-        "question": "'That the human being is created in the best of moulds' is a verse from...?",
+        "question": "'إن الإنسان لفي خسر' هو آية من ...؟",
         "answers": [
-            "Surat al Asr",
-            "Surat al Tin",
-            "Surat al Maun",
-            "Surat al Takathur"
+            "سورة العصر",
+            "سورة التين",
+            "سورة الماعون",
+            "سورة التكاثر"
         ],
         "correctAnswer": 1
     },
     {
         "id": 85,
-        "question": "Which Prophet is known for his strength and defeating the giant Jalut (Goliath)?",
+        "question": "أي نبي معروف بقوته وهزيمته للعملاق جالوت (جليث)؟",
         "answers": [
-            "Prophet Dawud",
-            "Prophet Sulayman",
-            "Prophet Musa",
-            "Prophet Nuh"
+            "النبي داود",
+            "النبي سليمان",
+            "النبي موسى",
+            "النبي نوح"
         ],
         "correctAnswer": 0
     },
     {
         "id": 86,
-        "question": "Which of the following is the name of Allah with the meaning - The Most Loving One?",
+        "question": "ما هو اسم الله الذي يعني - الأكثر محبة؟",
         "answers": [
-            "Al-Majeed",
-            "Al-Wadud",
-            "Al-Muqtadir",
-            "Al-Waarith"
+            "المجيد",
+            "الودود",
+            "المقتدر",
+            "الوارث"
         ],
         "correctAnswer": 1
     },
     {
         "id": 87,
-        "question": "Which Surah is recited in every unit of the Muslim prayer (Salah)?",
+        "question": "أي سورة تُقرأ في كل ركعة من صلاة المسلم؟",
         "answers": [
-            "Surah Al-Fatiha",
-            "Surah Al-Baqarah",
-            "Surah Al-Ikhlas",
-            "Surah An-Nas"
+            "سورة الفاتحة",
+            "سورة البقرة",
+            "سورة الإخلاص",
+            "سورة الناس"
         ],
         "correctAnswer": 0
     },
     {
         "id": 88,
-        "question": "What is Mahram?",
+        "question": "ما هو المحرم؟",
         "answers": [
-            "one who is forbidden to marry with",
-            "one who is allowed to marry to",
-            "the shroud cloth worn at the time of Hajj",
-            "the name of the Indonesian outfit"
+            "الشخص الذي يُحرم الزواج منه",
+            "الشخص الذي يسمح الزواج منه",
+            "القماش الملفوف الذي يرتديه الحاج",
+            "اسم الملابس الإندونيسية"
         ],
         "correctAnswer": 0
     },
     {
         "id": 89,
-        "question": "Identify the correct translation of 'Iqra, bism Rabbikallazi Khalaq' ..?",
+        "question": "حدد الترجمة الصحيحة لـ 'اقرأ باسم ربك الذي خلق' ..؟",
         "answers": [
-            "O you who are enwrapped in your mantle, arise and warn",
-            "Read, in the name of your Sustainer, Who created",
-            "you folded in garments, stand to pray by night",
-            "The best of this world and the world Hereafter"
+            "يا من ملفوف في ردائك، قم وحذر",
+            "اقرأ باسم ربك الذي خلق",
+            "أنت مطوي في الأقمشة، قم للصلاة بالليل",
+            "أفضل هذا العالم والعالم الآخر"
         ],
         "correctAnswer": 1
     },
     {
         "id": 90,
-        "question": "How many Surahs (chapters) are there in the Qur'an?",
+        "question": "كم عدد السور في القرآن؟",
         "answers": [
             "114",
             "112",
@@ -1002,102 +1002,102 @@
     },
     {
         "id": 91,
-        "question": "What is another name given to the Quran?",
+        "question": "ما هو الاسم الآخر المعطى للقرآن؟",
         "answers": [
-            "Ar-Rahmaan",
-            "Al-Baqarah",
-            "Al-Furqan",
-            "Al-Sahih"
+            "الرحمان",
+            "البقرة",
+            "الفرقان",
+            "الصحيح"
         ],
         "correctAnswer": 2
     },
     {
         "id": 92,
-        "question": "Which pillar was commanded in the journey of al Isra wal Miraaj?",
+        "question": "ما هو الركن الذي أمر به في رحلة الإسراء والمعراج؟",
         "answers": [
-            "Fasting Ramadan",
-            "Performing Hajj",
-            "Praying 5 Times Salah ",
-            "Paying Zakat"
+            "صيام رمضان",
+            "أداء الحج",
+            "صلاة الخمس مرات",
+            "دفع الزكاة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 93,
-        "question": "Which wife of the Prophet (PBUH) had children and was a widow when he (PBUH) married her?",
+        "question": "أي من زوجات النبي (صلى الله عليه وسلم) كان لها أطفال وكانت أرملة عندما تزوجها (صلى الله عليه وسلم)؟",
         "answers": [
-            "Hafsa",
-            "Khadija",
-            "Zaynab bint Jahsh",
-            "Umm Salamah"
+            "حفصة",
+            "خديجة",
+            "زينب بنت جحش",
+            "أم سلمة"
         ],
         "correctAnswer": 3
     },
     {
         "id": 94,
-        "question": "Allah says, with His knowledge, He is more closer to us than our ____?",
+        "question": "يقول الله، بعلمه، إنه أقرب إلينا من ...؟",
         "answers": [
-            "Thoughts",
-            "Heart",
-            "Jugular Vein",
-            "Blood"
+            "الأفكار",
+            "القلب",
+            "الوريد الرقبي",
+            "الدم"
         ],
         "correctAnswer": 2
     },
     {
         "id": 95,
-        "question": "What is the term for the major ritual purification in Islam?",
+        "question": "ما هو المصطلح للطهارة الكبرى في الإسلام؟",
         "answers": [
-            "Ghusl",
-            "Wudu",
-            "Tayammum",
-            "Sawm"
+            "الغسل",
+            "الوضوء",
+            "التيمم",
+            "الصوم"
         ],
         "correctAnswer": 0
     },
     {
         "id": 96,
-        "question": "How old was Prophet Muhammad (peace be upon him) when he got the first revelation?",
+        "question": "كم عمر النبي محمد (صلى الله عليه وسلم) عندما تلقى أول وحي؟",
         "answers": [
-            "25 years old",
-            "35 years old",
-            "40 years old",
-            "63 years old"
+            "25 عامًا",
+            "35 عامًا",
+            "40 عامًا",
+            "63 عامًا"
         ],
         "correctAnswer": 2
     },
     {
         "id": 97,
-        "question": "Which battle happened in Ramadan?",
+        "question": "أي معركة حدثت في شهر رمضان؟",
         "answers": [
-            "Battle of Badr",
-            "Battle of Khandaq",
-            "Battle of Uhud",
-            "Battle of Hunayn"
+            "معركة بدر",
+            "معركة الخندق",
+            "معركة أحد",
+            "معركة حنين"
         ],
         "correctAnswer": 0
     },
     {
         "id": 98,
-        "question": "Which Prophet is known for his message to the people of Thamud and the miracle of the she-camel?",
+        "question": "أي نبي معروف برسالته إلى قوم ثمود وبمعجزة الناقة العجل؟",
         "answers": [
-            "Prophet Salih",
-            "Prophet Hud",
-            "Prophet Shuaib",
-            "Prophet Yunus"
+            "النبي صالح",
+            "النبي هود",
+            "النبي شعيب",
+            "النبي يونس"
         ],
         "correctAnswer": 0
     },
     {
         "id": 99,
-        "question": "What is the term for the obligatory charity that Muslims must give to support those in need?",
+        "question": "ما هو المصطلح للزكاة الواجبة التي يجب على المسلمين إعطاؤها لدعم المحتاجين؟",
         "answers": [
-            "Zakat",
-            "Sadaqah",
-            "Hajj",
-            "Sawm"
+            "الزكاة",
+            "الصدقة",
+            "الحج",
+            "الصوم"
         ],
         "correctAnswer": 0
     }
-
+    
 ]

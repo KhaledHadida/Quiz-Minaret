@@ -1,0 +1,12 @@
+{
+    "English": {
+      "Islamic Foundations": "../quizzes/Arabic/Islamic Foundations.json",
+      "Islamic History": "../quizzes/English/Islamic History.json",
+      "Islamic Practices": "../quizzes/English/Islamic Practices.json"
+    },
+    "Arabic": {
+      "Islamic Foundations": "../quizzes/Arabic/Islamic Foundations.json",
+      "Islamic History": "../quizzes/Arabic/Islamic History.json",
+      "Islamic Practices": "../quizzes/Arabic/Islamic Practices.json"
+    }
+  }

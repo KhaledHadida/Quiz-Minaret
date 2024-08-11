@@ -1,76 +1,85 @@
 import { View, Text, StyleSheet, TouchableOpacity, ImageBackground } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useContextProvider } from './ContextProvider';
+import soundManager from '../components/SoundManager';
 
+//This is the first screen a user would see when loading the app, showcases the different topics a user can navigate
 const QuizHomeScreen = ({ navigation }) => {
 
-    const {translate} = useContextProvider();
+    const { translate, colorTheme, soundOn } = useContextProvider();
 
+    //These are the subtopics - i.e "Quran", "Prophets", "Sunnah and Hadith", "Aqeedah (Islamic Belief)"
     const foundationTopics = translate('foundations_topics');
     const practicesTopics = translate('practices_topics');
     const historyTopics = translate('history_topics');
 
-    console.log(foundationTopics);
+    const styles = createStyles(colorTheme);
+
     return (
-        <ImageBackground source={require('../assets/minaret.png')} opacity={0.15}
+        <ImageBackground source={require('../assets/minaret.png')} opacity={0.1}
             style={{ height: '100%', width: '100%' }}
-            imageStyle={{
-                resizeMode: 'repeat',
-                borderColor: 'black',
-                borderWidth: 2,
-            }}>
+            imageStyle={styles.backgroundImg}>
+
             <SafeAreaView style={{ height: '100%' }}>
                 <View style={styles.headerView}>
-                    <Text style={styles.salamText}>{translate('greeting')}</Text>
-                    <Text style={styles.headerText}>{translate('quiz_intro')}</Text>
+                    <Text style={[styles.salamText, { color: colorTheme.colors.headerText }]}>{translate('greeting')}</Text>
+                    <Text style={[styles.headerText, { color: colorTheme.colors.text }]}>{translate('quiz_intro')}</Text>
                 </View>
                 <View style={styles.container}>
-                    <TouchableOpacity style={styles.quizButton} onPress={() => navigation.navigate("Quiz Transition", {
-                        points: 
-                            foundationTopics.map((topic)=>{
-                                return {key: topic}
-                            })
-     
-                        ,
-                        topic: "Islamic Foundations"
-                    })}>
-                        <Text style={styles.quizButtonText} >{translate('button_foundations')}</Text>
+                    <TouchableOpacity style={styles.quizButton} onPress={() => {
+                        navigation.navigate("Quiz Transition", {
+                            points:
+                                foundationTopics.map((topic) => {
+                                    return { key: topic }
+                                })
+                            ,
+                            topic: "Islamic Foundations"
+                        }), soundManager.playSound('buttonPress', soundOn)
+                    }}>
+                        <Text style={styles.quizButtonText} >{translate('islamic_foundations')}</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.quizButton} onPress={() => navigation.navigate("Quiz Transition", {
-                        points: 
-                            practicesTopics.map((topic)=>{
-                                return {key: topic}
-                            })
-     
-                        ,
-                        topic: "Islamic Practices"
-                    })}>
-                        <Text style={styles.quizButtonText} >{translate('button_practices')}</Text>
+                    <TouchableOpacity style={styles.quizButton} onPress={() => {
+                        navigation.navigate("Quiz Transition", {
+                            points:
+                                practicesTopics.map((topic) => {
+                                    return { key: topic }
+                                })
+                            ,
+                            topic: "Islamic Practices"
+                        }), soundManager.playSound('buttonPress', soundOn)
+                    }}>
+                        <Text style={styles.quizButtonText} >{translate('islamic_practices')}</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.quizButton} onPress={() => navigation.navigate("Quiz Transition", {
-                        points: 
-                        historyTopics.map((topic)=>{
-                            return {key: topic}
-                        })
- 
-                    ,
-                        topic: "Islamic History"
-                    })}>
-                        <Text style={styles.quizButtonText} >{translate('button_history')}</Text>
+                    <TouchableOpacity style={styles.quizButton} onPress={() => {
+                        navigation.navigate("Quiz Transition", {
+                            points:
+                                historyTopics.map((topic) => {
+                                    return { key: topic }
+                                })
+                            ,
+                            topic: "Islamic History"
+                        }), soundManager.playSound('buttonPress', soundOn)
+                    }}>
+                        <Text style={styles.quizButtonText} >{translate('islamic_history')}</Text>
                     </TouchableOpacity>
                 </View>
             </SafeAreaView>
         </ImageBackground>
-
-
     );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colorTheme) => StyleSheet.create({
     container: {
         flexGrow: 1,
         justifyContent: 'space-evenly',
         alignItems: 'stretch',
+    },
+
+    backgroundImg: {
+        resizeMode: 'repeat',
+        borderColor: 'black',
+        borderWidth: 2,
+        tintColor: colorTheme.colors.backgroundImg
     },
 
     headerView: {
@@ -83,20 +92,13 @@ const styles = StyleSheet.create({
         fontSize: 35,
         textAlign: 'center',
         color: '#613f22',
-        // textShadowColor: 'rgba(0, 0, 0, 0.25)',
-        // textShadowOffset: {width: 1, height: 1},
-        // textShadowRadius: 10
     },
 
     headerText: {
         fontFamily: 'Anton',
         fontSize: 20,
         textAlign: 'center',
-        //#634e10
         color: '#80532d',
-        // textShadowColor: 'rgba(0, 0, 0, 0.5)',
-        // textShadowOffset: {width: 1, height: 1},
-        // textShadowRadius: 10
     },
 
     backGroundImage: {
@@ -105,15 +107,15 @@ const styles = StyleSheet.create({
 
     quizButton: {
         flex: 1,
-        backgroundColor: '#B5C18E',
         borderRadius: 50,
         marginHorizontal: 30,
         padding: 20,
         margin: 20,
         borderWidth: 2,
-        borderColor: '#B99470',
         shadowColor: '#000',
         elevation: 6,
+        backgroundColor: colorTheme.colors.card,
+        borderColor: colorTheme.colors.border
 
     },
 

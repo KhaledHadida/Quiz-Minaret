@@ -4,7 +4,7 @@ import { useContextProvider } from "./ContextProvider";
 
 const CreditsScreen = () => {
 
-    const {translate} = useContextProvider();
+    const { translate } = useContextProvider();
     //Link them 
     const handleLink = (url) => {
         Linking.openURL(url).catch((err) => console.log("URL not working.."));
@@ -27,7 +27,7 @@ const CreditsScreen = () => {
                 </Text>
                 {/* history pic */}
                 <Text onPress={() => handleLink("https://www.freepik.com/icon/book_4613201#fromView=search&page=1&position=33&uuid=1e1d5b7c-791a-42c9-a9d0-086d567d6071")} style={styles.link}>
-                   Book - Icon by Freepik
+                    Book - Icon by Freepik
                 </Text>
                 {/* studying pic */}
                 <Text onPress={() => handleLink("https://www.freepik.com/icon/read-quran_15993104#fromView=search&page=1&position=28&uuid=0a93c425-8df6-45d9-b059-93b2f1babe25")} style={styles.link}>
@@ -51,6 +51,9 @@ const CreditsScreen = () => {
                 </Text>
                 <Text onPress={() => handleLink("https://www.freepik.com/icon/settings_158384#fromView=search&page=1&position=6&uuid=430b2bf9-d693-4b8d-9585-fca46608c622")} style={styles.link}>
                     Settings Icon - Icon by Freepik
+                </Text>
+                <Text onPress={() => handleLink("https://www.freepik.com/icon/applause_9087026#fromView=search&page=1&position=52&uuid=21895ad5-f659-4e3d-85e8-50ba3d776c57")} style={styles.link}>
+                    Icon by Freepik
                 </Text>
             </SafeAreaView>
         </ImageBackground >

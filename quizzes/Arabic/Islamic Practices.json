@@ -1,18 +1,18 @@
 [
     {
         "id": 0,
-        "question": "When are the white days (Ayyam al Bid)?",
+        "question": "متى تكون أيام البيض؟",
         "answers": [
-            "1, 2, 3",
-            "10, 11, 12",
-            "13, 14, 15",
-            "the last 3 days of each month"
+            "1، 2، 3",
+            "10، 11، 12",
+            "13، 14، 15",
+            "آخر 3 أيام من كل شهر"
         ],
         "correctAnswer": 2
     },
     {
         "id": 1,
-        "question": "How many sunnah rak'ahs after Jumu'ah prayer while at the mosque?",
+        "question": "كم عدد ركعات السنة بعد صلاة الجمعة في المسجد؟",
         "answers": [
             "2",
             "4",
@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "question": "How many times a day are Muslims required to perform Salah (prayer)?",
+        "question": "كم مرة في اليوم يجب على المسلمين أداء صلاة؟",
         "answers": [
             "3",
             "4",
@@ -34,667 +34,667 @@
     },
     {
         "id": 3,
-        "question": "What is the name of the prayer performed by Muslims before sunrise?",
+        "question": "ما هو اسم الصلاة التي يؤديها المسلمون قبل شروق الشمس؟",
         "answers": [
-            "Dhuhr",
-            "Asr",
-            "Maghrib",
-            "Fajr"
+            "الظهر",
+            "العصر",
+            "المغرب",
+            "الفجر"
         ],
         "correctAnswer": 3
     },
     {
         "id": 4,
-        "question": "During which month do Muslims observe fasting from dawn until sunset?",
+        "question": "في أي شهر يصوم المسلمون من الفجر حتى غروب الشمس؟",
         "answers": [
-            "Shawwal",
-            "Muharram",
-            "Ramadan",
-            "Dhul-Hijjah"
+            "شوال",
+            "محرم",
+            "رمضان",
+            "ذو الحجة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 5,
-        "question": "What is the meal called that Muslims eat before starting their fast at dawn?",
+        "question": "ما هو اسم الوجبة التي يأكلها المسلمون قبل بدء صيامهم عند الفجر؟",
         "answers": [
-            "Iftar",
-            "Suhoor",
-            "Eid",
-            "Tarawih"
+            "الإفطار",
+            "السحور",
+            "العيد",
+            "التراويح"
         ],
         "correctAnswer": 1
     },
     {
         "id": 6,
-        "question": "What is the obligatory form of charity called that every eligible Muslim must give?",
+        "question": "ما هو اسم الزكاة التي يجب على كل مسلم مؤهل دفعها؟",
         "answers": [
-            "Sadaqah",
-            "Zakat",
-            "Khums",
-            "Fidyah"
+            "صدقة",
+            "زكاة",
+            "خمس",
+            "فدية"
         ],
         "correctAnswer": 1
     },
     {
         "id": 7,
-        "question": "Which city must Muslims visit to perform the pilgrimage of Hajj?",
+        "question": "أي مدينة يجب على المسلمين زيارتها لأداء فريضة الحج؟",
         "answers": [
-            "Jerusalem",
-            "Medina",
-            "Mecca",
-            "Cairo"
+            "القدس",
+            "المدينة",
+            "مكة",
+            "القاهرة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 8,
-        "question": "What is the name of the sacred black stone that Muslims circumambulate during Hajj?",
+        "question": "ما هو اسم الحجر الأسود الذي يطوف حوله المسلمون أثناء الحج؟",
         "answers": [
-            "Maqam Ibrahim",
-            "Hajr Aswad",
-            "Zamzam",
-            "Safa"
+            "مقام إبراهيم",
+            "الحجر الأسود",
+            "زمزم",
+            "الصفا"
         ],
         "correctAnswer": 1
     },
     {
         "id": 9,
-        "question": "What is the term used to describe good moral character and behavior in Islam?",
+        "question": "ما هو المصطلح الذي يصف الأخلاق والسلوك الحسن في الإسلام؟",
         "answers": [
-            "Taqwa",
-            "Akhlaq",
-            "Ihsan",
-            "Tawakkul"
+            "تقوى",
+            "أخلاق",
+            "إحسان",
+            "توكل"
         ],
         "correctAnswer": 1
     },
     {
         "id": 10,
-        "question": "What is the second pillar of Islam?",
+        "question": "ما هو الركن الثاني من أركان الإسلام؟",
         "answers": [
-            "Shahada",
-            "Salat",
-            "Zakat",
-            "Hajj"
+            "الشهادة",
+            "الصلاة",
+            "الزكاة",
+            "الحج"
         ],
         "correctAnswer": 1
     },
     {
         "id": 11,
-        "question": "How many times a day is a Muslim required to pray?",
+        "question": "كم مرة في اليوم يجب على المسلم أداء الصلاة؟",
         "answers": [
-            "Three",
-            "Four",
-            "Five",
-            "Six"
+            "ثلاث مرات",
+            "أربع مرات",
+            "خمس مرات",
+            "ست مرات"
         ],
         "correctAnswer": 2
     },
     {
         "id": 12,
-        "question": "During which month do Muslims fast from dawn until sunset?",
+        "question": "في أي شهر يصوم المسلمون من الفجر حتى غروب الشمس؟",
         "answers": [
-            "Shawwal",
-            "Ramadan",
-            "Muharram",
-            "Rajab"
+            "شوال",
+            "رمضان",
+            "محرم",
+            "رجب"
         ],
         "correctAnswer": 1
     },
     {
         "id": 13,
-        "question": "What is the act of giving a portion of one's wealth to charity called?",
+        "question": "ما هو العمل الذي يتضمن إعطاء جزء من الثروة للصدقة؟",
         "answers": [
-            "Sadaqah",
-            "Zakat",
-            "Kaffarah",
-            "Jizya"
+            "صدقة",
+            "زكاة",
+            "كفارة",
+            "جزية"
         ],
         "correctAnswer": 1
     },
     {
         "id": 14,
-        "question": "How often is a Muslim required to perform Hajj if they are able?",
+        "question": "كم مرة يجب على المسلم أداء فريضة الحج إذا كان قادرًا؟",
         "answers": [
-            "Once in a lifetime",
-            "Once a year",
-            "Twice in a lifetime",
-            "Twice a year"
+            "مرة واحدة في العمر",
+            "مرة في السنة",
+            "مرتين في العمر",
+            "مرتين في السنة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 15,
-        "question": "What is the name of the pre-dawn meal consumed before fasting during Ramadan?",
+        "question": "ما هو اسم الوجبة التي يتم تناولها قبل الفجر خلال شهر رمضان؟",
         "answers": [
-            "Iftar",
-            "Suhur",
-            "Tarawih",
-            "Tahajjud"
+            "الإفطار",
+            "السحور",
+            "التراويح",
+            "تهجد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 16,
-        "question": "What is the prayer called that Muslims perform after sunset?",
+        "question": "ما هي الصلاة التي يؤديها المسلمون بعد غروب الشمس؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Maghrib",
-            "Isha"
+            "الفجر",
+            "الظهر",
+            "المغرب",
+            "العشاء"
         ],
         "correctAnswer": 2
     },
     {
         "id": 17,
-        "question": "Which day of the week is considered the holiest in Islam, where communal prayers are held?",
+        "question": "أي يوم من الأسبوع يعتبر أقدس في الإسلام حيث تقام الصلاة الجماعية؟",
         "answers": [
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
+            "الخميس",
+            "الجمعة",
+            "السبت",
+            "الأحد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 18,
-        "question": "What is the special prayer performed during the nights of Ramadan?",
+        "question": "ما هي الصلاة الخاصة التي تُؤدى خلال ليالي رمضان؟",
         "answers": [
-            "Tahajjud",
-            "Tarawih",
-            "Witr",
-            "Duha"
+            "تهجد",
+            "تراويح",
+            "وتر",
+            "ضحى"
         ],
         "correctAnswer": 1
     },
     {
         "id": 19,
-        "question": "What is the term for the obligatory charity that Muslims must pay, typically 2.5% of their savings?",
+        "question": "ما هو المصطلح المستخدم لوصف الزكاة الإلزامية التي يجب على المسلمين دفعها، عادة 2.5% من مدخراتهم؟",
         "answers": [
-            "Sadaqah",
-            "Kaffarah",
-            "Zakat",
-            "Fidyah"
+            "صدقة",
+            "كفارة",
+            "زكاة",
+            "فدية"
         ],
         "correctAnswer": 2
     },
     {
         "id": 20,
-        "question": "What is the name of the pilgrimage to Mecca that Muslims must perform at least once in their lifetime?",
+        "question": "ما هو اسم الحج الذي يجب على المسلمين أداءه مرة واحدة على الأقل في حياتهم؟",
         "answers": [
-            "Umrah",
-            "Hajj",
-            "Ziyarat",
-            "Rihla"
+            "عمرة",
+            "حج",
+            "زيارة",
+            "رحلة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 21,
-        "question": "What is the name of the practice of fasting on the 10th day of Muharram?",
+        "question": "ما هو اسم الصيام الذي يتم في اليوم العاشر من محرم؟",
         "answers": [
-            "Sawm",
-            "Arafah",
-            "Ashura",
-            "Eid"
+            "صوم",
+            "عرفات",
+            "عاشوراء",
+            "عيد"
         ],
         "correctAnswer": 2
     },
     {
         "id": 22,
-        "question": "What is the Arabic term for the prayer beads used by Muslims?",
+        "question": "ما هو المصطلح العربي لمسبحة الصلاة المستخدمة من قبل المسلمين؟",
         "answers": [
-            "Rosary",
-            "Misbaha",
-            "Tasbih",
-            "Subha"
+            "مسبحة",
+            "مسابح",
+            "تسبيح",
+            "سبحة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 23,
-        "question": "Which pillar of Islam is directly associated with the declaration of faith?",
+        "question": "أي ركن من أركان الإسلام مرتبط بالشهادة؟",
         "answers": [
-            "Salat",
-            "Zakat",
-            "Hajj",
-            "Shahada"
+            "صلاة",
+            "زكاة",
+            "حج",
+            "شهادة"
         ],
         "correctAnswer": 3
     },
     {
         "id": 24,
-        "question": "What is the significance of the Kaaba in Islam?",
+        "question": "ما هي أهمية الكعبة في الإسلام؟",
         "answers": [
-            "It is the burial place of the Prophet Muhammad",
-            "It is a mosque built by the first caliph",
-            "It is the direction Muslims face during prayer",
-            "It is the birthplace of Islam"
+            "إنها مكان دفن النبي محمد",
+            "إنها مسجد بني من قبل أول خليفة",
+            "إنها اتجاه المسلمين في الصلاة",
+            "إنها مكان مولد الإسلام"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
         "id": 25,
-        "question": "Which prayer is performed in the early afternoon?",
+        "question": "أي صلاة تؤدى في الظهيرة؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Asr",
-            "Isha"
+            "الفجر",
+            "الظهر",
+            "العصر",
+            "العشاء"
         ],
         "correctAnswer": 1
     },
     {
         "id": 26,
-        "question": "What is the term for the purification ritual performed before prayers?",
+        "question": "ما هو المصطلح المستخدم لوصف الطهارة قبل الصلاة؟",
         "answers": [
-            "Ghusl",
-            "Tayammum",
-            "Wudu",
-            "Istinja"
+            "غسل",
+            "تيمم",
+            "وضوء",
+            "استنجاء"
         ],
         "correctAnswer": 2
     },
     {
         "id": 27,
-        "question": "What is the reward for performing the pilgrimage of Umrah during Ramadan?",
+        "question": "ما هو الثواب لأداء عمرة في رمضان؟",
         "answers": [
-            "Equivalent to performing Hajj",
-            "Double the reward of Hajj",
-            "Half the reward of Hajj",
-            "No special reward"
+            "معادل للحج",
+            "ضعف ثواب الحج",
+            "نصف ثواب الحج",
+            "لا يوجد ثواب خاص"
         ],
         "correctAnswer": 0
     },
     {
         "id": 28,
-        "question": "What is the name of the evening meal with which Muslims end their daily Ramadan fast?",
+        "question": "ما هو اسم الوجبة المسائية التي يفطر بها المسلمون خلال رمضان؟",
         "answers": [
-            "Iftar",
-            "Suhur",
-            "Tarawih",
-            "Tahajjud"
+            "الإفطار",
+            "السحور",
+            "التراويح",
+            "تهجد"
         ],
         "correctAnswer": 0
     },
     {
         "id": 29,
-        "question": "What is the term for the spiritual retreat in the mosque during the last 10 days of Ramadan?",
+        "question": "ما هو المصطلح للانقطاع الروحي في المسجد خلال الأيام العشرة الأخيرة من رمضان؟",
         "answers": [
-            "Iftar",
-            "Qiyam",
-            "Itikaf",
-            "Tahajjud"
+            "الإفطار",
+            "قيام",
+            "اعتكاف",
+            "تهجد"
         ],
         "correctAnswer": 2
     },
     {
         "id": 30,
-        "question": "What is the name of the chapter in the Quran that is recited in every unit of prayer?",
+        "question": "ما هو اسم السورة التي تُقرأ في كل وحدة من الصلاة؟",
         "answers": [
-            "Surah Al-Baqarah",
-            "Surah Al-Fatiha",
-            "Surah Al-Ikhlas",
-            "Surah Yaseen"
+            "سورة البقرة",
+            "سورة الفاتحة",
+            "سورة الإخلاص",
+            "سورة يس"
         ],
         "correctAnswer": 1
     },
     {
         "id": 31,
-        "question": "What is the term for the congregational prayer performed on Friday?",
+        "question": "ما هو المصطلح للصلاة الجماعية التي تؤدى يوم الجمعة؟",
         "answers": [
-            "Eid Salah",
-            "Jumu'ah",
-            "Taraweeh",
-            "Qiyam"
+            "صلاة العيد",
+            "الجمعة",
+            "تراويح",
+            "قيام"
         ],
         "correctAnswer": 1
     },
     {
         "id": 32,
-        "question": "What is the Arabic term for the night prayer performed after Isha?",
+        "question": "ما هو المصطلح العربي للصلاة الليلية التي تُؤدى بعد العشاء؟",
         "answers": [
-            "Tahajjud",
-            "Duha",
-            "Qiyam",
-            "Tarawih"
+            "تهجد",
+            "ضحى",
+            "قيام",
+            "تراويح"
         ],
         "correctAnswer": 0
     },
     {
         "id": 33,
-        "question": "Which pillar of Islam involves fasting during the month of Ramadan?",
+        "question": "أي ركن من أركان الإسلام يتضمن الصيام خلال شهر رمضان؟",
         "answers": [
-            "Shahada",
-            "Salat",
-            "Zakat",
-            "Sawm"
+            "الشهادة",
+            "الصلاة",
+            "الزكاة",
+            "الصوم"
         ],
         "correctAnswer": 3
     },
     {
         "id": 34,
-        "question": "What is the special prayer performed at night during the last 10 days of Ramadan?",
+        "question": "ما هي الصلاة الخاصة التي تُؤدى ليلاً خلال الأيام العشرة الأخيرة من رمضان؟",
         "answers": [
-            "Tahajjud",
-            "Tarawih",
-            "Witr",
-            "Itikaf"
+            "تهجد",
+            "تراويح",
+            "وتر",
+            "اعتكاف"
         ],
         "correctAnswer": 1
     },
     {
         "id": 35,
-        "question": "What is the name of the pilgrimage that Muslims can perform at any time of the year?",
+        "question": "ما هو اسم الحج الذي يمكن للمسلمين أداءه في أي وقت من السنة؟",
         "answers": [
-            "Hajj",
-            "Umrah",
-            "Ziyarat",
-            "Rihla"
+            "حج",
+            "عمرة",
+            "زيارة",
+            "رحلة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 36,
-        "question": "How many units (rak'ahs) are there in the Fajr prayer?",
+        "question": "كم عدد الركعات في صلاة الفجر؟",
         "answers": [
-            "Two",
-            "Four",
-            "Three",
-            "Five"
+            "اثنان",
+            "أربعة",
+            "ثلاثة",
+            "خمسة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 37,
-        "question": "What is the prayer performed at mid-morning called?",
+        "question": "ما هو اسم الصلاة التي تُؤدى في وقت منتصف الصباح؟",
         "answers": [
-            "Duha",
-            "Tahajjud",
-            "Qiyam",
-            "Tarawih"
+            "ضحى",
+            "تهجد",
+            "قيام",
+            "تراويح"
         ],
         "correctAnswer": 0
     },
     {
         "id": 38,
-        "question": "What is the term for the charitable donation given at the end of Ramadan?",
+        "question": "ما هو المصطلح للصدقة التي تُعطى في نهاية رمضان؟",
         "answers": [
-            "Zakat",
-            "Sadaqah",
-            "Fitrana",
-            "Kaffarah"
+            "زكاة",
+            "صدقة",
+            "فطر",
+            "كفارة"
         ],
         "correctAnswer": 2
     },
     {
         "id": 39,
-        "question": "What is the term for the obligatory fast-breaking charity given before Eid al-Fitr?",
+        "question": "ما هو المصطلح للصدقة الواجبة التي تُعطى قبل عيد الفطر؟",
         "answers": [
-            "Zakat-al-Fitr",
-            "Zakat al-Mal",
-            "Sadaqah",
-            "Kaffarah"
+            "زكاة الفطر",
+            "زكاة المال",
+            "صدقة",
+            "كفارة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 40,
-        "question": "What is the term for voluntary charity given by Muslims?",
+        "question": "ما هو المصطلح للصدقة التطوعية التي يقدمها المسلمون؟",
         "answers": [
-            "Zakat",
-            "Kaffarah",
-            "Sadaqah",
-            "Fidyah"
+            "زكاة",
+            "كفارة",
+            "صدقة",
+            "فدية"
         ],
         "correctAnswer": 2
     },
     {
         "id": 41,
-        "question": "What is the name of the prayer performed after the obligatory night prayer (Isha)?",
+        "question": "ما هو اسم الصلاة التي تُؤدى بعد صلاة الليل الواجبة (العشاء)؟",
         "answers": [
-            "Duha",
-            "Tahajjud",
-            "Witr",
-            "Tarawih"
+            "ضحى",
+            "تهجد",
+            "وتر",
+            "تراويح"
         ],
         "correctAnswer": 2
     },
     {
         "id": 42,
-        "question": "What is the name of the annual pilgrimage to Mecca that all Muslims must perform if they are able?",
+        "question": "ما هو اسم الحج السنوي إلى مكة الذي يجب على كل مسلم أداءه إذا كان قادرًا؟",
         "answers": [
-            "Umrah",
-            "Hajj",
-            "Ziyarat",
-            "Rihla"
+            "عمرة",
+            "حج",
+            "زيارة",
+            "رحلة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 43,
-        "question": "What is the term for the extra prayer performed after the obligatory prayers?",
+        "question": "ما هو المصطلح للصلاة الإضافية التي تُؤدى بعد الصلوات الواجبة؟",
         "answers": [
-            "Sunnah",
-            "Nafl",
-            "Witr",
-            "Tahajjud"
+            "سنة",
+            "نفل",
+            "وتر",
+            "تهجد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 44,
-        "question": "Which prayer is performed in the early afternoon?",
+        "question": "أي صلاة تُؤدى في وقت الظهيرة المبكرة؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Asr",
-            "Isha"
+            "فجر",
+            "ظهر",
+            "عصر",
+            "عشاء"
         ],
         "correctAnswer": 1
     },
     {
         "id": 45,
-        "question": "What is the Arabic term for the charity given to free a person from their sins?",
+        "question": "ما هو المصطلح العربي للصدقة التي تُعطى لتخليص الشخص من ذنوبه؟",
         "answers": [
-            "Kaffarah",
-            "Sadaqah",
-            "Fidyah",
-            "Zakat"
+            "كفارة",
+            "صدقة",
+            "فدية",
+            "زكاة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 46,
-        "question": "What is the name of the stone structure Muslims circle during Hajj?",
+        "question": "ما هو اسم الهيكل الحجري الذي يدور حوله المسلمون خلال الحج؟",
         "answers": [
-            "Zamzam Well",
-            "Kaaba",
-            "Mina",
-            "Arafat"
+            "بئر زمزم",
+            "الكعبة",
+            "منى",
+            "عرفات"
         ],
         "correctAnswer": 1
     },
     {
         "id": 47,
-        "question": "What is the Arabic term for the prayer performed at sunset?",
+        "question": "ما هو المصطلح العربي للصلاة التي تُؤدى عند الغروب؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Maghrib",
-            "Isha"
+            "فجر",
+            "ظهر",
+            "مغرب",
+            "عشاء"
         ],
         "correctAnswer": 2
     },
     {
         "id": 48,
-        "question": "Which month in the Islamic calendar is Ramadan?",
+        "question": "أي شهر في التقويم الإسلامي هو رمضان؟",
         "answers": [
-            "First",
-            "Ninth",
-            "Tenth",
-            "Twelfth"
+            "الأول",
+            "التاسع",
+            "العاشر",
+            "الثاني عشر"
         ],
         "correctAnswer": 1
     },
     {
         "id": 49,
-        "question": "What is the Arabic term for the Friday sermon?",
+        "question": "ما هو المصطلح العربي لخطبة الجمعة؟",
         "answers": [
-            "Khutbah",
-            "Sunnah",
-            "Hadith",
-            "Fatwa"
+            "خطبة",
+            "سنة",
+            "حديث",
+            "فتوى"
         ],
         "correctAnswer": 0
     },
     {
         "id": 50,
-        "question": "What is the Arabic term for the evening prayer?",
+        "question": "ما هو المصطلح العربي للصلاة المسائية؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Maghrib",
-            "Isha"
+            "فجر",
+            "ظهر",
+            "مغرب",
+            "عشاء"
         ],
         "correctAnswer": 3
     },
     {
         "id": 51,
-        "question": "What is the term for the prayer performed at dawn?",
+        "question": "ما هو المصطلح للصلاة التي تُؤدى عند الفجر؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Maghrib",
-            "Isha"
+            "فجر",
+            "ظهر",
+            "مغرب",
+            "عشاء"
         ],
         "correctAnswer": 0
     },
     {
         "id": 52,
-        "question": "What is the name of the meal consumed to break the fast during Ramadan?",
+        "question": "ما هو اسم الوجبة التي تُؤكل لكسر الصيام خلال رمضان؟",
         "answers": [
-            "Iftar",
-            "Suhur",
-            "Tahajjud",
-            "Tarawih"
+            "إفطار",
+            "سحور",
+            "تهجد",
+            "تراويح"
         ],
         "correctAnswer": 0
     },
     {
         "id": 53,
-        "question": "What is the term for the act of seeking forgiveness from Allah?",
+        "question": "ما هو المصطلح لفعل طلب المغفرة من الله؟",
         "answers": [
-            "Istighfar",
-            "Tawbah",
-            "Kaffarah",
-            "Sadaqah"
+            "استغفار",
+            "توبة",
+            "كفارة",
+            "صدقة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 54,
-        "question": "What is the term for the pre-dawn meal consumed before fasting during Ramadan?",
+        "question": "ما هو المصطلح للوجبة التي تُؤكل قبل الفجر خلال رمضان؟",
         "answers": [
-            "Iftar",
-            "Suhur",
-            "Tarawih",
-            "Tahajjud"
+            "إفطار",
+            "سحور",
+            "تراويح",
+            "تهجد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 55,
-        "question": "What is the term for the act of washing oneself before prayers?",
+        "question": "ما هو المصطلح لفعل غسل النفس قبل الصلاة؟",
         "answers": [
-            "Ghusl",
-            "Wudu",
-            "Tayammum",
-            "Istinja"
+            "غسل",
+            "وضوء",
+            "تيمم",
+            "استنجاء"
         ],
         "correctAnswer": 1
     },
     {
         "id": 56,
-        "question": "What is the term for the special prayers performed during the nights of Ramadan?",
+        "question": "ما هو المصطلح للصلاة الخاصة التي تُؤدى خلال ليالي رمضان؟",
         "answers": [
-            "Tahajjud",
-            "Tarawih",
-            "Witr",
-            "Duha"
+            "تهجد",
+            "تراويح",
+            "وتر",
+            "ضحى"
         ],
         "correctAnswer": 1
     },
     {
         "id": 57,
-        "question": "What is the name of the night when the Quran was first revealed?",
+        "question": "ما هو اسم الليلة التي نزل فيها القرآن لأول مرة؟",
         "answers": [
-            "Laylat al-Qadr",
-            "Laylat al-Isra",
-            "Laylat al-Miraj",
-            "Laylat al-Bara'at"
+            "ليلة القدر",
+            "ليلة الإسراء",
+            "ليلة المعراج",
+            "ليلة البراءة"
         ],
         "correctAnswer": 0
     },
     {
         "id": 58,
-        "question": "What is the name of the prayer performed after the obligatory prayers?",
+        "question": "ما هو اسم الصلاة التي تُؤدى بعد الصلوات الواجبة؟",
         "answers": [
-            "Sunnah",
-            "Nafl",
-            "Witr",
-            "Tahajjud"
+            "سنة",
+            "نفل",
+            "وتر",
+            "تهجد"
         ],
         "correctAnswer": 1
     },
     {
         "id": 59,
-        "question": "What is the Arabic term for the five daily prayers?",
+        "question": "ما هو المصطلح العربي للصلاة اليومية الخمس؟",
         "answers": [
-            "Sawm",
-            "Zakat",
-            "Salah",
-            "Hajj"
+            "صوم",
+            "زكاة",
+            "صلاة",
+            "حج"
         ],
         "correctAnswer": 2
     },
     {
         "id": 60,
-        "question": "CHANGE?",
+        "question": "تغيير؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Asr",
-            "Maghrib"
+            "فجر",
+            "ظهر",
+            "عصر",
+            "مغرب"
         ],
         "correctAnswer": 1
     },
     {
         "id": 61,
-        "question": "What is the Arabic term for the obligatory charity given by Muslims?",
+        "question": "ما هو المصطلح العربي للصدقة الواجبة التي يقدمها المسلمون؟",
         "answers": [
-            "Sadaqah",
-            "Zakat",
-            "Sawm",
-            "Hajj"
+            "صدقة",
+            "زكاة",
+            "صوم",
+            "حج"
         ],
         "correctAnswer": 1
     },
     {
         "id": 63,
-        "question": "What is the Arabic term for the call to prayer?",
+        "question": "ما هو المصطلح العربي للأذان؟",
         "answers": [
-            "Imam",
-            "Adhan",
-            "Khutbah",
-            "Iqama"
+            "إمام",
+            "أذان",
+            "خطبة",
+            "إقامة"
         ],
         "correctAnswer": 1
     },
     {
         "id": 65,
-        "question": "How many units (Rak'ahs) are in the Fajr prayer?",
+        "question": "كم عدد الركعات في صلاة الفجر؟",
         "answers": [
             "2",
             "3",
@@ -705,89 +705,320 @@
     },
     {
         "id": 68,
-        "question": "What is the minimum amount of wealth that makes Zakat obligatory called?",
+        "question": "ما هو الحد الأدنى من المال الذي يجعل الزكاة واجبة؟",
         "answers": [
-            "Nisab",
-            "Sadaqah",
-            "Fidya",
-            "Riba"
+            "نصاب",
+            "صدقة",
+            "فدية",
+            "ربا"
         ],
         "correctAnswer": 0
     },
     {
         "id": 69,
-        "question": "Which prayer is performed in the late afternoon?",
+        "question": "أي صلاة تُؤدى في أواخر بعد الظهر؟",
         "answers": [
-            "Fajr",
-            "Dhuhr",
-            "Asr",
-            "Isha"
+            "فجر",
+            "ظهر",
+            "عصر",
+            "عشاء"
         ],
         "correctAnswer": 2
     },
     {
         "id": 72,
-        "question": "What is the special night prayer performed during Ramadan called?",
+        "question": "ما هو اسم الصلاة الليلية الخاصة التي تُؤدى خلال رمضان؟",
         "answers": [
-            "Tahajjud",
-            "Tarawih",
-            "Qiyam",
-            "Duha"
+            "تهجد",
+            "تراويح",
+            "قيام",
+            "ضحى"
         ],
         "correctAnswer": 1
     },
     {
         "id": 73,
-        "question": "Which prayer is performed just before going to bed?",
+        "question": "أي صلاة تُؤدى قبل الذهاب إلى النوم مباشرة؟",
         "answers": [
-            "Maghrib",
-            "Isha",
-            "Asr",
-            "Dhuhr"
+            "مغرب",
+            "عشاء",
+            "عصر",
+            "ظهر"
         ],
         "correctAnswer": 1
     },
     {
         "id": 74,
-        "question": "What is the Arabic term for the purification of wealth?",
+        "question": "ما هو المصطلح العربي لتطهير المال؟",
         "answers": [
-            "Sadaqah",
-            "Zakat",
-            "Riba",
-            "Nisab"
+            "صدقة",
+            "زكاة",
+            "ربا",
+            "نصاب"
         ],
         "correctAnswer": 1
     },
     {
         "id": 75,
-        "question": "What is the term for the voluntary fasts outside of Ramadan?",
+        "question": "ما هو المصطلح للصوم التطوعي خارج رمضان؟",
         "answers": [
-            "Nafl",
-            "Fard",
-            "Sunnah",
-            "Wajib"
+            "نفل",
+            "فرض",
+            "سنة",
+            "واجب"
         ],
         "correctAnswer": 0
     },
     {
         "id": 76,
-        "question": "Which ritual involves running between the hills of Safa and Marwah during Hajj?",
+        "question": "أي شعيرة تتضمن السعي بين جبلي الصفا والمروة خلال الحج؟",
         "answers": [
-            "Tawaf",
-            "Sa'i",
-            "Rami",
-            "Ihram"
+            "طواف",
+            "سعي",
+            "رمي",
+            "إحرام"
         ],
         "correctAnswer": 1
     },
     {
         "id": 78,
-        "question": "What is the term for the special charity given during Ramadan to help those in need?",
+        "question": "ما هو المصطلح للصدقة الخاصة التي تُعطى خلال رمضان لمساعدة المحتاجين؟",
         "answers": [
-            "Sadaqat al-Fitr",
-            "Zakat",
-            "Fidya",
-            "Kaffarah"
+            "صدقات الفطر",
+            "زكاة",
+            "فدية",
+            "كفارة"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 79,
+        "question": "كم عدد الركعات في صلاة العشاء؟",
+        "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 80,
+        "question": "ما اسم الصلاة التي تؤدى عند الظهر؟",
+        "answers": [
+            "الفجر",
+            "الظهر",
+            "العصر",
+            "المغرب"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 81,
+        "question": "ما هو المصطلح العربي لصيام الأيام المستحبّة يومي الاثنين والخميس؟",
+        "answers": [
+            "صوم التطوع",
+            "صوم الكفارة",
+            "صوم القضاء",
+            "صوم النفل"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 82,
+        "question": "أي صلاة يتم قصرها وجمعها أثناء السفر؟",
+        "answers": [
+            "الفجر",
+            "الظهر والعصر",
+            "المغرب والعشاء",
+            "كل ما سبق"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 83,
+        "question": "ما هو المصطلح الذي يشير إلى إعطاء جزء من المحصول للفقراء؟",
+        "answers": [
+            "زكاة المال",
+            "عشر",
+            "فدية",
+            "نصاب"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 84,
+        "question": "ما هو الطواف حول الكعبة سبع مرات يسمى؟",
+        "answers": [
+            "طواف",
+            "سعي",
+            "رمي",
+            "إحرام"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 85,
+        "question": "ما هو المصطلح للصلاة الزائدة التي تؤدى في الثلث الأخير من الليل؟",
+        "answers": [
+            "تهجد",
+            "تراويح",
+            "وتر",
+            "عشاء"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 86,
+        "question": "ما هو الأجر الذي يُعطى لمن يصوم ستة أيام من شوال؟",
+        "answers": [
+            "حج مبرور",
+            "عمرة",
+            "ثواب",
+            "بركة"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 87,
+        "question": "ما هو المصطلح لصيام يوم عرفة لغير الحجاج؟",
+        "answers": [
+            "صوم النفل",
+            "صوم الكفارة",
+            "صوم الأيام البيض",
+            "صوم عرفة"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 88,
+        "question": "ما هو المصطلح للصيام الواجب بسبب كسر نذر؟",
+        "answers": [
+            "صوم التطوع",
+            "صوم الكفارة",
+            "صوم القضاء",
+            "صوم النفل"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 89,
+        "question": "ما اسم الماء الذي يعتبر مقدسًا ويأتي من بئر في مكة؟",
+        "answers": [
+            "زمزم",
+            "الصفا",
+            "المروة",
+            "نصاب"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 90,
+        "question": "ما هو المصطلح للصلاة التطوعية التي تؤدى للحاجات أو الطلبات الخاصة؟",
+        "answers": [
+            "ضحى",
+            "توبة",
+            "استخارة",
+            "صلاة الحاجة"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 91,
+        "question": "ما هو المصطلح للصلاة التي تؤدى بعد المغرب؟",
+        "answers": [
+            "الفجر",
+            "الظهر",
+            "العصر",
+            "العشاء"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 92,
+        "question": "ما هو المصطلح للصلاة الزائدة التي تؤدى في العشر الأواخر من رمضان؟",
+        "answers": [
+            "تهجد",
+            "تراويح",
+            "قيام الليل",
+            "اعتكاف"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 93,
+        "question": "ما هو المصطلح للوضوء الذي يتم باستخدام التراب أو الغبار النظيف عند عدم توفر الماء؟",
+        "answers": [
+            "غسل",
+            "وضوء",
+            "تيمم",
+            "استنجاء"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 94,
+        "question": "أي من التالي هو نوع من الصدقة التي تعطى في السر للحفاظ على كرامة المستلم؟",
+        "answers": [
+            "زكاة",
+            "صدقة السر",
+            "كفارة",
+            "فدية"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 95,
+        "question": "ما هو المصطلح العربي للعمرة التي يمكن أداؤها في أي وقت من السنة؟",
+        "answers": [
+            "حج",
+            "عمرة",
+            "زيارة",
+            "رحلة"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 96,
+        "question": "ما هو المصطلح للشعيرة التي تتضمن رمي الجمار أثناء الحج؟",
+        "answers": [
+            "طواف",
+            "سعي",
+            "رمي الجمار",
+            "إحرام"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 97,
+        "question": "ما هو المصطلح للصلاة الخاصة التي تؤدى لطلب الإرشاد في اتخاذ قرار؟",
+        "answers": [
+            "صلاة التوبة",
+            "صلاة الاستخارة",
+            "صلاة الحاجة",
+            "صلاة التسبيح"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 98,
+        "question": "ما هو المصطلح للصلاة التطوعية التي تؤدى بعد الصلوات الواجبة؟",
+        "answers": [
+            "سنة",
+            "نفل",
+            "وتر",
+            "تهجد"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 99,
+        "question": "ما هو المصطلح العربي للزكاة الواجبة التي تعطى في نهاية رمضان؟",
+        "answers": [
+            "زكاة الفطر",
+            "زكاة المال",
+            "صدقة",
+            "كفارة"
         ],
         "correctAnswer": 0
     }

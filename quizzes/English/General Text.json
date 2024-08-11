@@ -1,9 +1,9 @@
 {
     "greeting": "Salam Alykum",
     "quiz_intro": "Below you can quiz yourself in different topics of Islam",
-    "button_foundations": "Islamic Foundations",
-    "button_practices": "Islamic Practices",
-    "button_history": "Islamic History",
+    "islamic_foundations": "Islamic Foundations",
+    "islamic_practices": "Islamic Practices",
+    "islamic_history": "Islamic History",
     "topics": "Topics Include",
     "foundations_topics": [
         "Quran",
@@ -40,6 +40,12 @@
     "Dark": "Dark",
     "Sound": "Sound",
     "Credits": "Credits",
-    "credits_thanks": "Thanks to the contributors for these resources used in the app below:"
-
+    "credits_thanks": "Thanks to the contributors for these resources used in the app below:",
+    "leaderboard": "Leaderboard will be added in the future.. (Inshallah)",
+    "start": "Start",
+    "home": "Home",
+    "congrats": "Congratulations",
+    "congrats_2": "You've completed all of the questions for",
+    "terms_and_privacy": "Terms & Privacy",
+    "reset": "Reset All Progress"
 }

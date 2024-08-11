@@ -1,30 +1,25 @@
-import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView, Animated, BackHandler, Alert, ImageBackground, Image } from 'react-native';
-import React, { useState, useRef, useEffect, useLayoutEffect } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView, Animated, ImageBackground, Image } from 'react-native';
+import React, { useState, useRef, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { MaterialIcons } from '@expo/vector-icons';
 import { BackButton, backAction } from '../components/BackButton';
-
-//Quizzes statically imported
-import quizIslamicFoundations from '../quizzes/English/Islamic Foundations.json';
-import quizIslamicHistory from '../quizzes/English/Islamic History.json';
-import quizIslamicPractices from '../quizzes/English/Islamic Practices.json';
-
-//Import images
-import imageIslamicFoundations from '../assets/Islamic Foundation.png'
-import imageIslamicHistory from '../assets/Islamic History.png';
-import imageIslamicPractices from '../assets/Islamic Practice.png';
 
 import { useContextProvider } from './ContextProvider';
 
 //Import useful functions
-import { saveQuestionIndices, removeQuestionIndex } from '../components/StorageUtils';
+import { saveData } from '../components/StorageUtils';
+
+//Import sound
+import soundManager from '../components/SoundManager';
+import AnimatedAnswers from '../components/AnimatedAnswers';
 
 
-//import Nunito from '../assets/fonts/Nunito.ttf';
 
+//This is the quiz screen that displays the question & answers, next & end button.
 const QuizScreen = ({ route, navigation }) => {
     //The chosenQuestions is the currentIndices ([0,4,6,2,1..])
     const { quizTopic, quizImg, quizData, chosenQuestions, dataIndexKey } = route.params;
+
+
     //Did user click on an answer?
     const [isClicked, setisClicked] = useState(false);
     //Current index we are on
@@ -32,15 +27,6 @@ const QuizScreen = ({ route, navigation }) => {
     //Current Question we are on
     const [questions, setQuestions] = useState(quizData[indexQuestion]);
 
-    //Fetch random values
-    const setRandomQuestionIndex = () => {
-        //i.e chosenQuestions = [1,2,3,4,8] --> randomIndex = 1 --> chosenQuestions[1] = 2..
-        setIndexQuestion(chosenQuestions[randomIndex]);
-        console.log("This is the random value we got " + randomIndex + " This is the set one " + indexQuestion);
-        //Display the array for testing
-        console.log("Array that is left " + chosenQuestions);
-
-    };
     // Effect to update the questions state whenever indexQuestion changes
     useEffect(() => {
         // //Randomly assign a question index
@@ -49,7 +35,7 @@ const QuizScreen = ({ route, navigation }) => {
         //Basically by doing chosenQuestions[indexQuestion] we get the element in the random Array 
         //(i.e indexQuestion = 0, chosenQuestions[indexQuestion] = 2 or whatever)
         //make sure we have questions to answer..?
-
+        console.log("Data so far " + chosenQuestions.length);
         if (chosenQuestions.length > 0) {
 
             setQuestions(quizData[chosenQuestions[0]]);
@@ -57,18 +43,19 @@ const QuizScreen = ({ route, navigation }) => {
         } else {
             //For now.. reset the user's questions he did then point him out to main screen.
             //removeQuestionIndex(dataIndexKey);
+            console.log("We are done quiz .. commence?");
             navigation.navigate('Quiz Results', {
-                msg: 'You are done!',
-                resetBool: false
+                img: quizImg,
+                topic: quizTopic
             });
         }
 
-        console.log("Current index is at " + indexQuestion + " Which should be " + chosenQuestions[indexQuestion]);
+        console.log("Current index is at " + indexQuestion + " Which should be " + chosenQuestions[0]);
         //remove it for now
-    }, [chosenQuestions[0]]);
+    }, [indexQuestion]);
 
     //Use context - aka global variables we need
-    const { questionCounter, correctAnsCounter, wrongAnsCounter, foundationsCounter, practicesCounter, historyCounter, setQuestionCounter, setCorrectAnsCounter, setWrongAnsCounter, setFoundationsCounter, setPracticesCounter, setHistoryCounter } = useContextProvider();
+    const { questionCounter, correctAnsCounter, wrongAnsCounter, foundationsCounter, practicesCounter, historyCounter, setQuestionCounter, setCorrectAnsCounter, setWrongAnsCounter, setFoundationsCounter, setPracticesCounter, setHistoryCounter, totalNumofQ, colorTheme, soundOn } = useContextProvider();
 
     //For anim - useRef persists data across re-renders
     const widthAnimation = useRef(new Animated.Value(0)).current;
@@ -78,12 +65,12 @@ const QuizScreen = ({ route, navigation }) => {
     function submitAnswer(answer) {
 
         if (answer == questions.answers[questions.correctAnswer]) {
-            console.log("Correct ");
+            soundManager.playSound('correctSound', soundOn)
             //Add tally to correct answers
             setCorrectAnsCounter(prevCounter => prevCounter + 1);
 
         } else {
-            console.log("Wrong");
+            soundManager.playSound('incorrectSound', soundOn)
             setWrongAnsCounter(prevCounter => prevCounter + 1);
         }
 
@@ -118,9 +105,18 @@ const QuizScreen = ({ route, navigation }) => {
         saveCounter('questionsAnswered', questionCounter);
         saveCounter('questionsCorrect', correctAnsCounter);
         saveCounter('questionsWrong', wrongAnsCounter);
+
+        //Save these too (but probably not the best way )
+        saveCounter('foundationsCounter', foundationsCounter);
+        saveCounter('historyCounter', historyCounter);
+        saveCounter('practicesCounter', practicesCounter);
+
     }, [questionCounter]);
 
-    //Animations portion
+
+
+
+    //Animations portion - Probably should move it to its own separate component
     const answerAnimation = () => {
         const widthAnimConfig = {
             toValue: 1,
@@ -142,10 +138,12 @@ const QuizScreen = ({ route, navigation }) => {
 
     answerAnimation();
 
+    //Remove the first Q in array
     function removeTop() {
-        chosenQuestions.splice(indexQuestion, 1);
+        //we are removing the FIRST question (i.e first index I guess);
+        chosenQuestions.splice(0, 1);
         //save the array
-        saveQuestionIndices(dataIndexKey, chosenQuestions);
+        saveData(dataIndexKey, chosenQuestions);
 
     }
 
@@ -155,22 +153,17 @@ const QuizScreen = ({ route, navigation }) => {
         //indexQuestion < quizData.length - 1
         if (chosenQuestions.length > 0) {
             //Increment question #
-            //setIndexQuestion(indexQuestion => indexQuestion + 1);
-            //Omit that index out of the array now
-            console.log("Which one went first?");
-            removeTop();
-            //setRandomQuestionIndex();
-            //Change the actual question 
-            //setQuestions(quizData[indexQuestion + 1]);
-            console.log("Change helo" + chosenQuestions);
             //toggle clicked
             setisClicked(false);
         } else {
+            //setIndexQuestion(indexQuestion => indexQuestion + 1);
+            //removeTop();
             //Finish the quiz
             //& Save the data
             //navigation.navigate('Quiz Results');
         }
-
+        //NEXT
+        setIndexQuestion(indexQuestion => indexQuestion + 1);
     }
 
     // Save either questions attempted, questioned answered correctly or incorrectly
@@ -178,35 +171,32 @@ const QuizScreen = ({ route, navigation }) => {
     const saveCounter = async (itemSaved, counter) => {
         try {
             await AsyncStorage.setItem(itemSaved, counter.toString());
-            console.log("Ok now we are at .. " + counter);
         } catch (error) {
             console.error('Error saving counter to AsyncStorage:', error);
         }
     };
 
+    const styles = createStyles(colorTheme);
 
-    // Function to increment counter and save to AsyncStorage
-    //params function 
     return (
-        <ImageBackground source={quizImg} opacity={0.15} resizeMode="repeat" style={styles.container}>
-            <SafeAreaView style={{ height: '100%' }}>
+        <ImageBackground source={quizImg} opacity={0.1} resizeMode="repeat" style={styles.container}
+            imageStyle={{
+                tintColor: colorTheme.colors.backgroundImg,
+            }}>
+            <SafeAreaView style={{ height: '100%', width: '100%' }}>
                 <View style={{ flex: 1, alignItems: 'center', margin: 10, justifyContent: 'space-between' }}>
-                    <View style={{
-                        backgroundColor: '#FFE5B4',
-                        elevation: 10,
-                        borderRadius: 10,
-                        shadowColor: 'black',
-                    }}>
+                    <View style={styles.questionBox}>
                         {/* QUESTION */}
-                        <Text style={styles.questionNumber}>Question {chosenQuestions[indexQuestion] + 1}/10:</Text>
+                        {/* <Text style={styles.questionNumber}>Question {chosenQuestions[indexQuestion] + 1}/{totalNumofQ}:</Text> */}
+                        <Text style={styles.questionNumber}>Question</Text>
                         <Text style={styles.question}>{questions.question}</Text>
                     </View>
                     {/* ANSWERS */}
                     {questions.answers.map((answer, index) => {
                         return (
+                            //Basically the animation of when answers are spawned in.
                             <Animated.View
                                 key={index}
-
                                 style={[{
                                     width: widthAnimation.interpolate({
                                         inputRange: [0, 1],
@@ -217,37 +207,26 @@ const QuizScreen = ({ route, navigation }) => {
                                         outputRange: ['0%', '16.5%'],
                                     }),
                                 }]}>
-                                <TouchableOpacity key={index} disabled={isClicked} style={isClicked ? (questions.correctAnswer == index ? styles.answerCorrect : styles.answerWrong) : styles.answerNeutral} onPress={() => submitAnswer(questions.answers[index],)}>
-                                    <Text style={{
-                                        fontWeight: 'bold',
-                                        fontSize: 16,
-                                        textAlign: 'center',
-                                        flexWrap: 'wrap',
-                                    }}>{answer}</Text>
-                                </TouchableOpacity>
+                                <AnimatedAnswers isClicked={isClicked} isAnswerCorrect={questions.correctAnswer == index} submitAnswer={submitAnswer} answer={answer} index={index} />
+
                             </Animated.View>
                         )
                     })}
                     {/* button for next */}
-                    {isClicked ? (
-                        <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between', padding: 20 }}>
-                            {/* First leave the page and go back (backAction) then remove first question (top i guess) */}
-                            <TouchableOpacity style={styles.nextButton} onPress={() => {backAction(navigation); removeTop()}}>
-                                <Text style={styles.nextButtonText} >End</Text>
-                                <Image style={{ width: 25, height: 25, }} source={require('../assets/End.png')}></Image>
-                            </TouchableOpacity>
-                            <TouchableOpacity style={styles.nextButton} onPress={() => nextQuestion()}>
-                                <Text style={styles.nextButtonText} >Next </Text>
-                                <Image style={{ width: 25, height: 25, }} source={require('../assets/Next.png')}></Image>
-                            </TouchableOpacity>
-                        </View>
-
-
-                    ) : null
-                    }
+                    <View style={{ flex: 1, flexDirection: 'row', }}>
+                        {/* First leave the page and go back (backAction) then remove first question (top i guess) */}
+                        <TouchableOpacity style={styles.nextButton} onPress={() => { backAction(navigation), soundManager.playSound('buttonPress', soundOn) }}>
+                            <Text style={styles.nextButtonText} >End</Text>
+                            <Image style={{ width: 25, height: 25, }} source={require('../assets/End.png')}></Image>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={[styles.nextButton, isClicked ? null : ({ opacity: 0.75, backgroundColor: '#adadad' })]} onPress={() => nextQuestion()} disabled={!isClicked}>
+                            <Text style={styles.nextButtonText} >Next </Text>
+                            <Image style={{ width: 25, height: 25, }} source={require('../assets/Next.png')}></Image>
+                        </TouchableOpacity>
+                    </View>
                 </View >
 
-                <BackButton navigation={navigation} />
+                <BackButton navigation={navigation} removeTop={removeTop} isClicked={isClicked} />
             </SafeAreaView >
         </ImageBackground>
 
@@ -255,7 +234,8 @@ const QuizScreen = ({ route, navigation }) => {
 }
 
 
-const styles = StyleSheet.create({
+const createStyles = (colorTheme) => StyleSheet.create({
+
     container: {
         height: '100%'
     },
@@ -273,6 +253,15 @@ const styles = StyleSheet.create({
         borderWidth: 2,
     },
 
+    questionBox: {
+        backgroundColor: '#FFE5B4',
+        elevation: 10,
+        borderRadius: 10,
+        shadowColor: 'black',
+        backgroundColor: colorTheme.colors.card,
+
+    },
+
     question: {
         fontFamily: 'Anton',
         fontSize: 18,
@@ -283,16 +272,27 @@ const styles = StyleSheet.create({
         textShadowOffset: { width: 2, height: 2 },
         textShadowRadius: 20,
         borderWidth: 1,
+        borderColor: colorTheme.colors.border
+
 
     },
+
+    answerText: {
+        fontWeight: 'bold',
+        fontSize: 16,
+        textAlign: 'center',
+        flexWrap: 'wrap',
+        color: colorTheme.colors.text,
+    },
+
     answerNeutral: {
-        backgroundColor: 'white',
         margin: 'auto',
         width: '95%',
         padding: 20,
         borderRadius: 50,
         borderWidth: 1,
         borderColor: 'grey',
+        backgroundColor: colorTheme.colors.answer,
     },
 
     answerCorrect: {
@@ -316,14 +316,14 @@ const styles = StyleSheet.create({
     },
 
     nextButton: {
-        backgroundColor: '#B5C18E',
         borderRadius: 20,
         padding: 20,
         borderWidth: 1,
-        borderColor: '#B99470',
         marginVertical: 'auto',
-        marginRight: 10,
-        flex: 1, alignItems: 'center', justifyContent: 'space-between', flexDirection: 'row'
+        margin: 10,
+        flex: 1, alignItems: 'center', justifyContent: 'space-between', flexDirection: 'row',
+        backgroundColor: colorTheme.colors.card,
+        borderColor: colorTheme.colors.border
     },
 
     nextButtonText: {
@@ -332,7 +332,6 @@ const styles = StyleSheet.create({
         textShadowColor: 'rgba(0, 0, 0, 0.5)',
         textShadowOffset: { width: 1, height: 2 },
         textShadowRadius: 10,
-        // paddingHorizontal: 20
     },
 
     backButton: {

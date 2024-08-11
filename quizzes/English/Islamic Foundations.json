@@ -124,16 +124,16 @@
         "id": 11,
         "question": "Who is considered the final prophet in Islam?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Jesus",
-            "Prophet Muhammad",
-            "Prophet Abraham"
+            "Prophet Moses (as)",
+            "Prophet Jesus (as)",
+            "Prophet Muhammad (PBUH)",
+            "Prophet Abraham (as)"
         ],
         "correctAnswer": 2
     },
     {
         "id": 12,
-        "question": "What is the term for the sayings and actions of Prophet Muhammad?",
+        "question": "What is the term for the sayings and actions of Prophet Muhammad (PBUH)?",
         "answers": [
             "Hadith",
             "Sunnah",
@@ -144,18 +144,18 @@
     },
     {
         "id": 13,
-        "question": "Which angel is believed to have revealed the Quran to Prophet Muhammad?",
+        "question": "Which angel is believed to have revealed the Quran to Prophet Muhammad (PBUH)?",
         "answers": [
-            "Angel Gabriel",
-            "Angel Michael",
-            "Angel Raphael",
-            "Angel Azrael"
+            "Angel Gabriel (as)",
+            "Angel Michael (as)",
+            "Angel Esrafil (as)",
+            "Angel Azrael (as)"
         ],
         "correctAnswer": 0
     },
     {
         "id": 14,
-        "question": "What is the Arabic term for the creed that declares faith in the oneness of Allah and the prophethood of Muhammad?",
+        "question": "What is the Arabic term for the creed that declares faith in the oneness of Allah and the prophethood of Muhammad (PBUH)?",
         "answers": [
             "Shahada",
             "Salat",
@@ -179,10 +179,10 @@
         "id": 16,
         "question": "Which Prophet is known for building the Kaaba in Mecca?",
         "answers": [
-            "Prophet Noah",
-            "Prophet Moses",
-            "Prophet Abraham",
-            "Prophet Solomon"
+            "Prophet Noah (as)",
+            "Prophet Moses (as)",
+            "Prophet Abraham (as)",
+            "Prophet Solomon (as)"
         ],
         "correctAnswer": 2
     },
@@ -212,10 +212,10 @@
         "id": 19,
         "question": "Which Prophet is known for his patience and suffering?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Job",
-            "Prophet Solomon",
-            "Prophet Jonah"
+            "Prophet Moses (as)",
+            "Prophet Job (as)",
+            "Prophet Solomon (as)",
+            "Prophet Jonah (as)"
         ],
         "correctAnswer": 1
     },
@@ -245,10 +245,10 @@
         "id": 22,
         "question": "Which Prophet is known for his wisdom and ruling a vast kingdom?",
         "answers": [
-            "Prophet David",
-            "Prophet Solomon",
-            "Prophet Joseph",
-            "Prophet Moses"
+            "Prophet David (as)",
+            "Prophet Solomon (as)",
+            "Prophet Joseph (as)",
+            "Prophet Moses (as)"
         ],
         "correctAnswer": 1
     },
@@ -256,10 +256,10 @@
         "id": 23,
         "question": "Which Prophet (as) addressed the ruler King Nimrod?",
         "answers": [
-            "Prophet Ibrahim",
-            "Prophet Isa",
-            "Prophet Yusuf ",
-            "Prophet Lut"
+            "Prophet Ibrahim (as)",
+            "Prophet Isa (as)",
+            "Prophet Yusuf (as)",
+            "Prophet Lut (as)"
         ],
         "correctAnswer": 0
     },
@@ -267,10 +267,10 @@
         "id": 24,
         "question": "Which Prophet is associated with the parting of the Red Sea?",
         "answers": [
-            "Prophet Abraham",
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jesus"
+            "Prophet Abraham (as)",
+            "Prophet Moses (as)",
+            "Prophet Joseph (as)",
+            "Prophet Jesus (as)"
         ],
         "correctAnswer": 1
     },
@@ -289,10 +289,10 @@
         "id": 26,
         "question": "What is the name of the Prophet who was swallowed by a whale?",
         "answers": [
-            "Prophet Jonah",
-            "Prophet Job",
-            "Prophet Noah",
-            "Prophet Lot"
+            "Prophet Jonah (as)",
+            "Prophet Job (as)",
+            "Prophet Noah (as)",
+            "Prophet Lot (as)"
         ],
         "correctAnswer": 0
     },
@@ -333,10 +333,10 @@
         "id": 30,
         "question": "Which angel is responsible for blowing the trumpet to announce the Day of Judgment?",
         "answers": [
-            "Angel Gabriel",
-            "Angel Michael",
-            "Angel Raphael",
-            "Angel Israfil"
+            "Angel Gabriel (as)",
+            "Angel Michael (as)",
+            "Angel Azrael (as)",
+            "Angel Israfil (as)"
         ],
         "correctAnswer": 3
     },
@@ -366,10 +366,10 @@
         "id": 33,
         "question": "Which Prophet was thrown into a fire but was unharmed by it?",
         "answers": [
-            "Prophet Musa",
-            "Prophet Sulayman",
-            "Prophet Ibrahim",
-            "Prophet Yusuf"
+            "Prophet Musa (as)",
+            "Prophet Sulayman (as)",
+            "Prophet Ibrahim (as)",
+            "Prophet Yusuf (as)"
         ],
         "correctAnswer": 2
     },
@@ -399,10 +399,10 @@
         "id": 36,
         "question": "Which Prophet was commanded by Allah to sacrifice his son but was stopped at the last moment?",
         "answers": [
-            "Prophet Nuh",
-            "Prophet Ibrahim",
-            "Prophet Yaqub",
-            "Prophet Yusuf"
+            "Prophet Nuh (as)",
+            "Prophet Ibrahim (as)",
+            "Prophet Yaqub (as)",
+            "Prophet Yusuf (as)"
         ],
         "correctAnswer": 1
     },
@@ -421,10 +421,10 @@
         "id": 38,
         "question": "Which Prophet is known for his miraculous birth and being a sign for mankind?",
         "answers": [
-            "Prophet Musa",
-            "Prophet Isa",
-            "Prophet Yahya",
-            "Prophet Muhammad"
+            "Prophet Musa (as)",
+            "Prophet Isa (as)",
+            "Prophet Yahya (as)",
+            "Prophet Muhammad (PBUH)"
         ],
         "correctAnswer": 1
     },
@@ -443,10 +443,10 @@
         "id": 40,
         "question": "Which Prophet received the Psalms from Allah?",
         "answers": [
-            "Prophet Musa",
-            "Prophet Dawud",
-            "Prophet Sulayman",
-            "Prophet Isa"
+            "Prophet Musa (as)",
+            "Prophet Dawud (as)",
+            "Prophet Sulayman (as)",
+            "Prophet Isa (as)"
         ],
         "correctAnswer": 1
     },
@@ -485,9 +485,9 @@
     },
     {
         "id": 44,
-        "question": "What is the name of the mother of Prophet Isa?",
+        "question": "What is the name of the mother of Prophet Isa (as)?",
         "answers": [
-            "Maryam",
+            "Maryam (as)",
             "Hannah",
             "Sarah",
             "Asiya"
@@ -531,10 +531,10 @@
         "id": 48,
         "question": "Which Prophet is known for his steadfastness and being thrown into a lion's den?",
         "answers": [
-            "Prophet Yunus",
-            "Prophet Daniel",
-            "Prophet Ayub",
-            "Prophet Yaqub"
+            "Prophet Yunus (as)",
+            "Prophet Daniel (as)",
+            "Prophet Ayub (as)",
+            "Prophet Yaqub (as)"
         ],
         "correctAnswer": 1
     },
@@ -564,7 +564,7 @@
         "id": 51,
         "question": "Which fruit is mentioned in the Quran?",
         "answers": [
-            "Grapes ",
+            "Grapes",
             "Apples",
             "Mangoes",
             "Oranges"
@@ -619,16 +619,16 @@
         "id": 56,
         "question": "Which Prophet was known for his dream interpretations and was sold into slavery by his brothers?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jacob",
-            "Prophet Job"
+            "Prophet Moses (as)",
+            "Prophet Joseph (as)",
+            "Prophet Jacob (as)",
+            "Prophet Job (as)"
         ],
         "correctAnswer": 1
     },
     {
         "id": 57,
-        "question": "What is the name of the well where Prophet Ismail and his mother Hajar were saved by water in the desert?",
+        "question": "What is the name of the well where Prophet Ismail (as) and his mother Hajar were saved by water in the desert?",
         "answers": [
             "Well of Zamzam",
             "Well of Salsabeel",
@@ -641,10 +641,10 @@
         "id": 58,
         "question": "Which Prophet is known for being thrown into a furnace by his people but was saved by Allah?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Abraham",
-            "Prophet Joseph",
-            "Prophet Noah"
+            "Prophet Moses (as)",
+            "Prophet Abraham (as)",
+            "Prophet Joseph (as)",
+            "Prophet Noah (as)"
         ],
         "correctAnswer": 1
     },
@@ -672,7 +672,7 @@
     },
     {
         "id": 61,
-        "question": "How many Prophets did Prophet Muhammad ﷺ meet on the different heavens during Isra wal Miraaj?",
+        "question": "How many Prophets did Prophet Muhammad (PBUH) meet on the different heavens during Isra wal Miraaj?",
         "answers": [
             "5",
             "6",
@@ -685,10 +685,10 @@
         "id": 62,
         "question": "Which Prophet is known for his miraculous speaking ability as an infant?",
         "answers": [
-            "Prophet Musa",
-            "Prophet Isa",
-            "Prophet Yusuf",
-            "Prophet Muhammad"
+            "Prophet Musa (as)",
+            "Prophet Isa (as)",
+            "Prophet Yusuf (as)",
+            "Prophet Muhammad (as)"
         ],
         "correctAnswer": 1
     },
@@ -727,23 +727,23 @@
     },
     {
         "id": 66,
-        "question": "Which Prophet is known for being the father of the Arab nations through his son Ishmael?",
+        "question": "Which Prophet is known for being the father of the Arab nations through his son Ishmael (as)?",
         "answers": [
-            "Prophet Abraham",
-            "Prophet Moses",
-            "Prophet Noah",
-            "Prophet Solomon"
+            "Prophet Abraham (as)",
+            "Prophet Moses (as)",
+            "Prophet Noah (as)",
+            "Prophet Solomon (as)"
         ],
         "correctAnswer": 0
     },
     {
         "id": 67,
-        "question": "What is the name of the wife of Pharaoh who saved and adopted Prophet Moses?",
+        "question": "What is the name of the wife of Pharaoh who saved and adopted Prophet Moses (as)?",
         "answers": [
             "Hannah",
             "Asiya",
             "Sarah",
-            "Maryam"
+            "Maryam (as)"
         ],
         "correctAnswer": 1
     },
@@ -751,10 +751,10 @@
         "id": 68,
         "question": "Which Prophet is known for his patience in dealing with the betrayal of his brothers and his time in prison?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jonah",
-            "Prophet Job"
+            "Prophet Moses (as)",
+            "Prophet Joseph (as)",
+            "Prophet Jonah (as)",
+            "Prophet Job (as)"
         ],
         "correctAnswer": 1
     },
@@ -773,10 +773,10 @@
         "id": 70,
         "question": "The angels at the Battle of Badr copied which sahabi's yellow turban?",
         "answers": [
-            "Sa'ad ibn Abi Waqqas",
-            "Bilal ibn Rabbah ",
-            "Zubayr ibn Awwam",
-            "Ali ibn Abi Taalib"
+            "Sa'ad ibn Abi Waqqas (ra)",
+            "Bilal ibn Rabbah (ra)",
+            "Zubayr ibn Awwam (ra)",
+            "Ali ibn Abi Taalib (ra)"
         ],
         "correctAnswer": 2
     },
@@ -795,10 +795,10 @@
         "id": 72,
         "question": "Which Prophet is known for his beauty and being falsely accused by the wife of the Egyptian official?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Joseph",
-            "Prophet Jacob",
-            "Prophet Solomon"
+            "Prophet Moses (as)",
+            "Prophet Joseph (as)",
+            "Prophet Jacob (as)",
+            "Prophet Solomon (as)"
         ],
         "correctAnswer": 1
     },
@@ -817,10 +817,10 @@
         "id": 74,
         "question": "Which Prophet is known for being tested by Allah with severe illness and loss of wealth and children?",
         "answers": [
-            "Prophet Jonah",
-            "Prophet Job",
-            "Prophet Joseph",
-            "Prophet Moses"
+            "Prophet Jonah (as)",
+            "Prophet Job (as)",
+            "Prophet Joseph (as)",
+            "Prophet Moses (as)"
         ],
         "correctAnswer": 1
     },
@@ -839,10 +839,10 @@
         "id": 76,
         "question": "Which Prophet is known for his prayer for a righteous son?",
         "answers": [
-            "Prophet Ibrahim",
-            "Prophet Yusuf",
-            "Prophet Zakariya",
-            "Prophet Musa"
+            "Prophet Ibrahim (as)",
+            "Prophet Yusuf (as)",
+            "Prophet Zakariya (as)",
+            "Prophet Musa (as)"
         ],
         "correctAnswer": 2
     },
@@ -850,10 +850,10 @@
         "id": 77,
         "question": "Which prophet has been mentioned in the Quran as a friend of Allah?",
         "answers": [
-            "Prophet Jesus (PBUH)",
+            "Prophet Jesus (as)",
             "Prophet Muhammad (PBUH)",
-            "Prophet Moses (PBUH)",
-            "Prophet Abraham (PBUH)"
+            "Prophet Moses (as)",
+            "Prophet Abraham (as)"
         ],
         "correctAnswer": 3
     },
@@ -872,10 +872,10 @@
         "id": 79,
         "question": "Which Prophet is known for his miraculous ability to speak as a newborn?",
         "answers": [
-            "Prophet Moses",
-            "Prophet Jesus",
-            "Prophet Joseph",
-            "Prophet Solomon"
+            "Prophet Moses (as)",
+            "Prophet Jesus (as)",
+            "Prophet Joseph (as)",
+            "Prophet Solomon (as)"
         ],
         "correctAnswer": 1
     },
@@ -894,10 +894,10 @@
         "id": 81,
         "question": "Which Prophet was known for his eloquence and for calling the people of Ad to the worship of Allah?",
         "answers": [
-            "Prophet Hud",
-            "Prophet Salih",
-            "Prophet Shuaib",
-            "Prophet Yunus"
+            "Prophet Hud (as)",
+            "Prophet Salih (as)",
+            "Prophet Shuaib (as)",
+            "Prophet Yunus (as)"
         ],
         "correctAnswer": 0
     },
@@ -916,10 +916,10 @@
         "id": 83,
         "question": "Which Prophet is mentioned the most times in the Quran?",
         "answers": [
-            "Prophet Musa",
-            "Prophet Ibrahim",
-            "Prophet Nuh",
-            "Prophet Isa"
+            "Prophet Musa (as)",
+            "Prophet Ibrahim (as)",
+            "Prophet Nuh (as)",
+            "Prophet Isa (as)"
         ],
         "correctAnswer": 0
     },
@@ -938,10 +938,10 @@
         "id": 85,
         "question": "Which Prophet is known for his strength and defeating the giant Jalut (Goliath)?",
         "answers": [
-            "Prophet Dawud",
-            "Prophet Sulayman",
-            "Prophet Musa",
-            "Prophet Nuh"
+            "Prophet Dawud (as)",
+            "Prophet Sulayman (as)",
+            "Prophet Musa (as)",
+            "Prophet Nuh (as)"
         ],
         "correctAnswer": 0
     },
@@ -1081,10 +1081,10 @@
         "id": 98,
         "question": "Which Prophet is known for his message to the people of Thamud and the miracle of the she-camel?",
         "answers": [
-            "Prophet Salih",
-            "Prophet Hud",
-            "Prophet Shuaib",
-            "Prophet Yunus"
+            "Prophet Salih (as)",
+            "Prophet Hud (as)",
+            "Prophet Shuaib (as)",
+            "Prophet Yunus (as)"
         ],
         "correctAnswer": 0
     },

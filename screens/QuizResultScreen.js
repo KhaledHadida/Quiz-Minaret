@@ -1,11 +1,15 @@
 import { useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, BackHandler } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Congrats from '../components/Congrats';
+import { useContextProvider } from './ContextProvider';
+import soundManager from '../components/SoundManager';
 
 const QuizResultScreen = ({ route, navigation }) => {
 
     //Parameters
-    const { msg, resetBool } = route.params;
+    const { img, topic } = route.params;
+    const { translate, colorTheme, soundOn } = useContextProvider();
 
     const handleBackButton = () => {
         // Return true to prevent default behavior (i.e., prevent navigating back)
@@ -22,19 +26,28 @@ const QuizResultScreen = ({ route, navigation }) => {
         };
 
     }, []);
+
+    const styles = createStyles(colorTheme);
+
     return (
-        <SafeAreaView style={{ flex: 1, justifyContent: 'space-between', alignItems: 'center' }}>
-            <Text>Results!</Text>
-            <Text>{msg}</Text>
+        <SafeAreaView style={{ flex: 1, justifyContent: 'space-between' }}>
+            <View style={{
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}>
+                <Congrats quizImg={img} quizTopic={topic} />
+            </View>
             {/* Button to start quiz */}
-            <TouchableOpacity style={styles.startButton} onPress={() => navigation.navigate("Home")}>
-                <Text style={styles.startText}>Go Home</Text>
+            <TouchableOpacity style={styles.quizButton} onPress={() => {soundManager.playSound('buttonPress', soundOn) , navigation.navigate("Home")}}>
+                <Text style={styles.startText}>{translate('home')}</Text>
             </TouchableOpacity>
         </SafeAreaView>
     );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colorTheme) => StyleSheet.create({
+
     startButton: {
         backgroundColor: 'green',
         margin: 25,
@@ -46,7 +59,20 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         color: 'white',
-    }
+    },
+
+    quizButton: {
+        borderRadius: 30,
+        marginHorizontal: 30,
+        padding: 20,
+        margin: 25,
+        borderWidth: 2,
+        borderColor: '#B99470',
+        shadowColor: '#000',
+        elevation: 6,
+        backgroundColor: colorTheme.colors.card, 
+        borderColor: colorTheme.colors.border
+    },
 });
 
 export default QuizResultScreen;

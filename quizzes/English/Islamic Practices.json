@@ -790,5 +790,236 @@
             "Kaffarah"
         ],
         "correctAnswer": 0
+    },
+    {
+        "id": 79,
+        "question": "How many units (Rak'ahs) are in the Isha prayer?",
+        "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 80,
+        "question": "What is the name of the prayer performed at noon?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Asr",
+            "Maghrib"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 81,
+        "question": "What is the Arabic term for the recommended fasting days of Monday and Thursday?",
+        "answers": [
+            "Sawm al-Tatwu'",
+            "Sawm al-Kaffarah",
+            "Sawm al-Qada'",
+            "Sawm al-Nafl"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 82,
+        "question": "Which prayer is shortened and combined during travel?",
+        "answers": [
+            "Fajr",
+            "Dhuhr and Asr",
+            "Maghrib and Isha",
+            "All of the above"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 83,
+        "question": "What is the term for the act of giving a portion of one's harvest to the needy?",
+        "answers": [
+            "Zakat al-Mal",
+            "Ushr",
+            "Fidyah",
+            "Nisab"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 84,
+        "question": "What is the ritual called when Muslims perform seven rounds around the Kaaba?",
+        "answers": [
+            "Tawaf",
+            "Sa'i",
+            "Rami",
+            "Ihram"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 85,
+        "question": "What is the term for the extra prayer performed during the last third of the night?",
+        "answers": [
+            "Tahajjud",
+            "Tarawih",
+            "Witr",
+            "Isha"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 86,
+        "question": "What is the reward called that is given to those who fast the six days of Shawwal?",
+        "answers": [
+            "Hajj Mabrur",
+            "Umrah",
+            "Sawab",
+            "Barakah"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 87,
+        "question": "What is the term for the fasting of the Day of Arafah for non-pilgrims?",
+        "answers": [
+            "Sawm al-Nafl",
+            "Sawm al-Kaffarah",
+            "Sawm al-Ayyam al-Bid",
+            "Sawm al-Arafah"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 88,
+        "question": "What is the term for the fast that is obligatory due to breaking a vow?",
+        "answers": [
+            "Sawm al-Tatwu'",
+            "Sawm al-Kaffarah",
+            "Sawm al-Qada'",
+            "Sawm al-Nafl"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 89,
+        "question": "What is the name of the water that is considered sacred and comes from a well in Mecca?",
+        "answers": [
+            "Zamzam",
+            "Safa",
+            "Marwah",
+            "Nisab"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 90,
+        "question": "What is the term for the voluntary prayers performed for special needs or requests?",
+        "answers": [
+            "Duha",
+            "Tawbah",
+            "Istikhara",
+            "Salat al-Hajah"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 91,
+        "question": "What is the term for the evening prayer performed after Maghrib?",
+        "answers": [
+            "Fajr",
+            "Dhuhr",
+            "Asr",
+            "Isha"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 92,
+        "question": "What is the term for the extra prayer performed specifically during the last ten nights of Ramadan?",
+        "answers": [
+            "Tahajjud",
+            "Tarawih",
+            "Qiyam al-Layl",
+            "Itikaf"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 93,
+        "question": "What is the term for the ablution performed using clean soil or dust when water is not available?",
+        "answers": [
+            "Ghusl",
+            "Wudu",
+            "Tayammum",
+            "Istinja"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 94,
+        "question": "Which of the following is a type of charity given in secret to maintain the dignity of the recipient?",
+        "answers": [
+            "Zakat",
+            "Sadaqah al-Sirr",
+            "Kaffarah",
+            "Fidyah"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 95,
+        "question": "What is the Arabic term for the minor pilgrimage that can be performed at any time of the year?",
+        "answers": [
+            "Hajj",
+            "Umrah",
+            "Ziyarat",
+            "Rihla"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 96,
+        "question": "What is the term for the ritual of stoning the pillars during Hajj?",
+        "answers": [
+            "Tawaf",
+            "Sa'i",
+            "Rami al-Jamarat",
+            "Ihram"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 97,
+        "question": "What is the term for the specific prayer performed to seek guidance in making a decision?",
+        "answers": [
+            "Salat al-Tawbah",
+            "Salat al-Istikhara",
+            "Salat al-Hajah",
+            "Salat al-Tasbih"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 98,
+        "question": "What is the term for the additional voluntary prayers performed after the obligatory prayers?",
+        "answers": [
+            "Sunnah",
+            "Nafl",
+            "Witr",
+            "Tahajjud"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 99,
+        "question": "What is the Arabic term for the obligatory charity given by Muslims at the end of Ramadan?",
+        "answers": [
+            "Zakat-al-Fitr",
+            "Zakat al-Mal",
+            "Sadaqah",
+            "Kaffarah"
+        ],
+        "correctAnswer": 0
     }
 ]
