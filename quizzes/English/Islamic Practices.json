@@ -682,6 +682,17 @@
         "correctAnswer": 1
     },
     {
+        "id": 62,
+        "question": "Which of the following is a specific act of worship performed during the Tashahhud in the Salah?",
+        "answers": [
+            "Reciting the Qur'an aloud",
+            "Standing for extra prayers",
+            "Sitting and reciting specific supplications",
+            "Performing Sujood (prostration)"
+        ],
+        "correctAnswer": 2
+    },
+    {
         "id": 63,
         "question": "What is the Arabic term for the call to prayer?",
         "answers": [
@@ -689,6 +700,17 @@
             "Adhan",
             "Khutbah",
             "Iqama"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 64,
+        "question": "In the context of Hajj, what is the name of the ritual in which pilgrims perform seven circuits around the Kaaba?",
+        "answers": [
+            "Safa and Marwah",
+            "Tawaf",
+            "Arafat",
+            "Ramy al-Jamarat"
         ],
         "correctAnswer": 1
     },
@@ -702,6 +724,28 @@
             "5"
         ],
         "correctAnswer": 0
+    },
+    {
+        "id": 66,
+        "question": "Which Surah is Ayat Al-Kursi from?",
+        "answers": [
+            "Surah Al-Ahzab",
+            "Surah Al-Baqarah",
+            "Surah Yaseen",
+            "Surah Taha"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 67,
+        "question": "In Islamic jurisprudence, what is the term used for the scholarly consensus on legal issues?",
+        "answers": [
+            "Ijtihad",
+            "Ijma",
+            "Qiyas",
+            "Fatwa"
+        ],
+        "correctAnswer": 1
     },
     {
         "id": 68,
@@ -724,6 +768,28 @@
             "Isha"
         ],
         "correctAnswer": 2
+    },
+    {
+        "id": 70,
+        "question": "What surah to read during every Friday (as Sunnah)?",
+        "answers": [
+            "Surah Al-Isra",
+            "Surah Al-Kahf",
+            "Surah An-Nur",
+            "Surah As-Sajdah"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 71,
+        "question": "What surah to read during every Friday (as Sunnah)?",
+        "answers": [
+            "Surah Al-Isra",
+            "Surah Al-Kahf",
+            "Surah An-Nur",
+            "Surah As-Sajdah"
+        ],
+        "correctAnswer": 1
     },
     {
         "id": 72,
@@ -779,6 +845,17 @@
             "Ihram"
         ],
         "correctAnswer": 1
+    },
+    {
+        "id": 77,
+        "question": "What is the term for the legal reasoning used to deduce Islamic laws from the Qur'an and Hadith when there is no explicit text available?",
+        "answers": [
+            "Ijma",
+            "Qiyas",
+            "Ijtihad",
+            "Fatwa"
+        ],
+        "correctAnswer": 2
     },
     {
         "id": 78,

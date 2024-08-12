@@ -18,8 +18,6 @@ import AnimatedAnswers from '../components/AnimatedAnswers';
 const QuizScreen = ({ route, navigation }) => {
     //The chosenQuestions is the currentIndices ([0,4,6,2,1..])
     const { quizTopic, quizImg, quizData, chosenQuestions, dataIndexKey } = route.params;
-
-
     //Did user click on an answer?
     const [isClicked, setisClicked] = useState(false);
     //Current index we are on
@@ -35,7 +33,6 @@ const QuizScreen = ({ route, navigation }) => {
         //Basically by doing chosenQuestions[indexQuestion] we get the element in the random Array 
         //(i.e indexQuestion = 0, chosenQuestions[indexQuestion] = 2 or whatever)
         //make sure we have questions to answer..?
-        console.log("Data so far " + chosenQuestions.length);
         if (chosenQuestions.length > 0) {
 
             setQuestions(quizData[chosenQuestions[0]]);
@@ -50,7 +47,6 @@ const QuizScreen = ({ route, navigation }) => {
             });
         }
 
-        console.log("Current index is at " + indexQuestion + " Which should be " + chosenQuestions[0]);
         //remove it for now
     }, [indexQuestion]);
 
@@ -266,15 +262,13 @@ const createStyles = (colorTheme) => StyleSheet.create({
         fontFamily: 'Anton',
         fontSize: 18,
         textAlign: 'center',
-        padding: 15,
+        padding: 10,
         color: 'white',
         textShadowColor: 'rgba(0, 0, 0, 0.75)',
         textShadowOffset: { width: 2, height: 2 },
         textShadowRadius: 20,
         borderWidth: 1,
         borderColor: colorTheme.colors.border
-
-
     },
 
     answerText: {
